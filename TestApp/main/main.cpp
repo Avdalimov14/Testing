@@ -71,6 +71,8 @@ char LedColor[3][6] = {"Red", "Green", "Blue"};
 // Declare of init functions
 void init_gpio();
 void init_pwm();
+void beep();
+#define BEEP beep()
 
 // Declare general functions
 void waitUntilPress(gpio_num_t gpioNum);
@@ -172,6 +174,8 @@ void nfcHandle() {
 				  sendValue += (test1.timePast << (8*(3))) | (test1.type << (8*2)) | (test1.data & (65535));
 				  printf ("0x%8X 0x%8X is sent!\n", (int)(sendValue >> 32), (int)sendValue);
 			  }
+			  BEEP;
+
     	  }
 
     	  vTaskDelay(500);
@@ -196,13 +200,8 @@ int app_main(void) {
 		printf("Please press on GPIO 0 to start test#%2d... (Buzzer beeps twice)\n", itCnt);
 		waitUntilPress(GPIO_INPUT_IO0);
 		// buzzer tests
-		gpio_set_level(GPIO_OUTPUT_BZZR, 1ULL);
-		vTaskDelay(100 / portTICK_RATE_MS);
-		gpio_set_level(GPIO_OUTPUT_BZZR, NULL);
-		vTaskDelay(100 / portTICK_RATE_MS);
-		gpio_set_level(GPIO_OUTPUT_BZZR, 1ULL);
-		vTaskDelay(100 / portTICK_RATE_MS);
-		gpio_set_level(GPIO_OUTPUT_BZZR, NULL);
+		BEEP;
+		BEEP;
 		// end of buzzer tests
 
 		printf("Please press on GPIO 0 to continue test#%2d... (Lighting order--> red,green,blue,all-together)\n", itCnt);
@@ -351,4 +350,12 @@ void init_pwm()
 
 	// Initialize fade service.
 	ledc_fade_func_install(0);
+}
+
+void beep()
+{
+	gpio_set_level(GPIO_OUTPUT_BZZR, 1ULL);
+	vTaskDelay(100 / portTICK_RATE_MS);
+	gpio_set_level(GPIO_OUTPUT_BZZR, NULL);
+	vTaskDelay(100 / portTICK_RATE_MS);
 }
