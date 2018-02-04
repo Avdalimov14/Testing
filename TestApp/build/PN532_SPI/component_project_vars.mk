@@ -1,0 +1,7 @@
+# Automatically generated build file. Do not edit.
+COMPONENT_INCLUDES += $(PROJECT_PATH)/components/PN532_SPI/include
+COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/PN532_SPI -lstdc++ -lPN532_SPI
+COMPONENT_LINKER_DEPS += 
+COMPONENT_SUBMODULES += 
+COMPONENT_LIBRARIES += PN532_SPI
+component-PN532_SPI-build: 
