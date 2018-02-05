@@ -1,5 +1,5 @@
-# Testing
-101devBoard Test Repo
+# 101devBoard Test Repo
+
 1. clone this repo to home directory of your local host machine. use: "git clone --recursive https://github.com/Avdalimov14/Testing.git"
 2. run the following commands to handle environment variables:
 	export GIT_PATH=$HOME/Testing
@@ -16,14 +16,15 @@
 
 
 Tests Insrtuction:
-- Please connect the Red Led to GPIO14(RGB1 red pin)
-- Please connect the Green Led to GPIO12(RGB1 green pin)
+- The test includes NFC module connection, if it isn't connected correctly you will see it on serial monitor. 
+- Please connect the Red Led to GPIO14(RGB1 red pin).
+- Please connect the Green Led to GPIO12(RGB1 green pin).
 - the system will continue to next test by pressing GPIO0.
 - First test: Buzzer beeps twice.
 - Second test: RGB1(binded to GPIO14 & GPIO12)  will light by the following order: red,geen,blue.all-together.
 - Attention on second test: the Red and Green Leds binded to RGB1 red pin & green pin, be sure they lighted corresponded.
 - Third test: RGB2 will fade in then fade out by the following order: red,geen,blue.all-together.
-- Fourth test: NFC Module Test --> if you have any NFC tag try to scan it, it should beep after a scan
+- Fourth test: NFC Module Test --> if you have any NFC tag try to scan it, it should beep after a scan.
 
 In any case of errors and problems, contact me on email.
 
