@@ -6,13 +6,17 @@
 	export IDF_PATH=$GIT_PATH/esp-idf
 	export PATH=$PATH:$DEV_PATH/xtensa-esp32-elf/bin
 	export COMMAND=xtensa-esp32-elf-gcc
-3. run the following commands to build and flash the test code:
+3. nevigate to test project folder and build it:
 	cd ~/Testing/TestApp
-	make menuconfig   // it will open configuration menu, just exit it
-	make all
+        make menuconfig   // it will open configuration menu, just exit it
+        make all
+4. connect esp32 to PC and get into Download Mode:
+	Keep GPIO0 pressed while reseting the esp32
+5. run the following commands to flash the test code:
 	make flash
-4. run the following command to open serial port: make monitor
-5. the tests will begin with instructions on serial monitor.
+5. reset the esp32 normally
+6. run the following command to open serial port: make monitor
+7. the tests will begin with instructions on serial monitor.
 
 
 Tests Insrtuction:
