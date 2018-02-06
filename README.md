@@ -4,7 +4,7 @@
 2. run the following commands to handle environment variables:
 	export GIT_PATH=$HOME/Testing
 	export IDF_PATH=$GIT_PATH/esp-idf
-	export PATH=$PATH:$DEV_PATH/xtensa-esp32-elf/bin
+	export PATH=$PATH:$GIT_PATH/xtensa-esp32-elf/bin
 	export COMMAND=xtensa-esp32-elf-gcc
 3. nevigate to test project folder and build it:
 	cd ~/Testing/TestApp
