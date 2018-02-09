@@ -1,6 +1,7 @@
 # 101devBoard Test Repo
 
 # Install Prerequisites
+- <b>use 64-bit Ubunto Linux OS</b> (if you prefer using 32-bit then replace xtensa folder with this one https://dl.espressif.com/dl/xtensa-esp32-elf-linux32-1.22.0-80-g6c4433a-5.2.0.tar.gz
 - run the following command:<br />
 	sudo apt-get install git wget make libncurses-dev flex bison gperf python python-serial
 
