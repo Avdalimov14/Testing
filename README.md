@@ -1,5 +1,10 @@
 # 101devBoard Test Repo
 
+# Install Prerequisites
+- run the following command:
+	sudo apt-get install git wget make libncurses-dev flex bison gperf python python-serial
+
+# Build and Flash Instructions
 1. clone this repo to home directory of your local host machine. use: "git clone --recursive https://github.com/Avdalimov14/Testing.git"
 2. run the following commands to handle environment variables:
 	export GIT_PATH=$HOME/Testing
@@ -19,7 +24,7 @@
 7. the tests will begin with instructions on serial monitor.
 
 
-Tests Insrtuction:
+# Tests Insrtuction:
 - The test includes NFC module connection, if it isn't connected correctly you will see it on serial monitor. 
 - Please connect the Red Led to GPIO14(RGB1 red pin).
 - Please connect the Green Led to GPIO12(RGB1 green pin).
