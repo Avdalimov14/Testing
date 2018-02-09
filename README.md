@@ -1,23 +1,23 @@
 # 101devBoard Test Repo
 
 # Install Prerequisites
-- run the following command:
+- run the following command:<br />
 	sudo apt-get install git wget make libncurses-dev flex bison gperf python python-serial
 
 # Build and Flash Instructions
-1. clone this repo to home directory of your local host machine. use:__ git clone --recursive https://github.com/Avdalimov14/Testing.git
-2. run the following commands to handle environment variables:__
-	export GIT_PATH=$HOME/Testing__
-	export IDF_PATH=$GIT_PATH/esp-idf__
-	export PATH=$PATH:$GIT_PATH/xtensa-esp32-elf/bin__
+1. clone this repo to home directory of your local host machine. use:<br /> git clone --recursive https://github.com/Avdalimov14/Testing.git
+2. run the following commands to handle environment variables:<br />
+	export GIT_PATH=$HOME/Testing<br />
+	export IDF_PATH=$GIT_PATH/esp-idf<br />
+	export PATH=$PATH:$GIT_PATH/xtensa-esp32-elf/bin<br />
 	export COMMAND=xtensa-esp32-elf-gcc
-3. nevigate to test project folder and build it:__
-	cd ~/Testing/TestApp__
-        make menuconfig   // it will open configuration menu, just exit it__
+3. nevigate to test project folder and build it:<br />
+	cd ~/Testing/TestApp<br />
+        make menuconfig   // it will open configuration menu, just exit it<br />
         make all
-4. connect esp32 to PC and get into Download Mode:__
+4. connect esp32 to PC and get into Download Mode:<br />
 	Keep GPIO0 pressed while reseting the esp32
-5. run the following commands to flash the test code:__
+5. run the following commands to flash the test code:<br />
 	make flash
 5. reset the esp32 normally
 6. run the following command to open serial port: make monitor
