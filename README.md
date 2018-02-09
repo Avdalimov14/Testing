@@ -5,19 +5,19 @@
 	sudo apt-get install git wget make libncurses-dev flex bison gperf python python-serial
 
 # Build and Flash Instructions
-1. clone this repo to home directory of your local host machine. use: "git clone --recursive https://github.com/Avdalimov14/Testing.git"
-2. run the following commands to handle environment variables:
-	export GIT_PATH=$HOME/Testing
-	export IDF_PATH=$GIT_PATH/esp-idf
-	export PATH=$PATH:$GIT_PATH/xtensa-esp32-elf/bin
+1. clone this repo to home directory of your local host machine. use:__ git clone --recursive https://github.com/Avdalimov14/Testing.git
+2. run the following commands to handle environment variables:__
+	export GIT_PATH=$HOME/Testing__
+	export IDF_PATH=$GIT_PATH/esp-idf__
+	export PATH=$PATH:$GIT_PATH/xtensa-esp32-elf/bin__
 	export COMMAND=xtensa-esp32-elf-gcc
-3. nevigate to test project folder and build it:
-	cd ~/Testing/TestApp
-        make menuconfig   // it will open configuration menu, just exit it
+3. nevigate to test project folder and build it:__
+	cd ~/Testing/TestApp__
+        make menuconfig   // it will open configuration menu, just exit it__
         make all
-4. connect esp32 to PC and get into Download Mode:
+4. connect esp32 to PC and get into Download Mode:__
 	Keep GPIO0 pressed while reseting the esp32
-5. run the following commands to flash the test code:
+5. run the following commands to flash the test code:__
 	make flash
 5. reset the esp32 normally
 6. run the following command to open serial port: make monitor
