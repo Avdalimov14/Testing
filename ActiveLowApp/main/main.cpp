@@ -205,20 +205,24 @@ int app_main(void) {
 		// end of buzzer tests
 		// turn on 1 LED
 		gpio_set_level(GPIO_OUTPUT_RRGB1, NULL);
+		vTaskDelay(300 / portTICK_RATE_MS);
 		printf("Please press on GPIO 0 to continue test\n");
 		waitUntilPress(GPIO_INPUT_IO0);
 		// turn on 2 LEDs
 		gpio_set_level(GPIO_OUTPUT_GRGB1, NULL);
+		vTaskDelay(300 / portTICK_RATE_MS);
 		printf("Please press on GPIO 0 to continue test\n");
 		waitUntilPress(GPIO_INPUT_IO0);
 		// turn on 3 LEDs
 		gpio_set_level(GPIO_OUTPUT_BRGB1, NULL);
+		vTaskDelay(300 / portTICK_RATE_MS);
 		printf("Please press on GPIO 0 to continue test\n");
 		waitUntilPress(GPIO_INPUT_IO0);
 		// turn off all LEDs
 		gpio_set_level(GPIO_OUTPUT_RRGB1, 1ULL);
 		gpio_set_level(GPIO_OUTPUT_GRGB1, 1ULL);
 		gpio_set_level(GPIO_OUTPUT_BRGB1, 1ULL);
+		vTaskDelay(300 / portTICK_RATE_MS);
 		printf("Please press on GPIO 0 to continue test\n");
 		waitUntilPress(GPIO_INPUT_IO0);
 		// PWM tests
@@ -243,7 +247,7 @@ int app_main(void) {
 
 		// Fade in then out 2 LEDs
 		printf("all colors fade up to duty = %d\n", LEDC_TEST_DUTY);
-		for (int ch = 0; ch < 1; ch++) {
+		for (int ch = 0; ch < 2; ch++) {
 			ledc_set_fade_with_time(ledc_channel[ch].speed_mode,
 					ledc_channel[ch].channel, LEDC_TEST_DUTY, LEDC_TEST_FADE_TIME);
 			ledc_fade_start(ledc_channel[ch].speed_mode,
@@ -252,7 +256,7 @@ int app_main(void) {
 		vTaskDelay(LEDC_TEST_FADE_TIME / portTICK_PERIOD_MS);
 
 		printf("all colors fade up to duty = %d\n", LEDC_INIT_DUTY);
-		for (int ch = 0; ch < 1; ch++) {
+		for (int ch = 0; ch < 2; ch++) {
 			ledc_set_fade_with_time(ledc_channel[ch].speed_mode,
 					ledc_channel[ch].channel, LEDC_INIT_DUTY, LEDC_TEST_FADE_TIME);
 			ledc_fade_start(ledc_channel[ch].speed_mode,
