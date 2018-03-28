@@ -1,4 +1,5 @@
 src/bootloader_sha.o: \
+<<<<<<< HEAD
  /home/albert/ESP32_101/esp-idf/components/bootloader_support/src/bootloader_sha.c \
  /home/albert/ESP32_101/esp-idf/components/bootloader_support/include_priv/bootloader_sha.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
@@ -112,3 +113,43 @@ src/bootloader_sha.o: \
 
 /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/soc.h:
 /home/albert/ESP32_101/esp-idf/components/bootloader_support/src/bootloader_sha.c:
+=======
+ /home/mtacti/Testing/esp-idf/components/bootloader_support/src/bootloader_sha.c \
+ /home/mtacti/Testing/esp-idf/components/bootloader_support/include_priv/bootloader_sha.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/rom/sha.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_assert.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_attr.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_dport_access.h \
+ /home/mtacti/Testing/ActiveLowApp/build/bootloader/../include/sdkconfig.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/hwcrypto_reg.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h
+
+/home/mtacti/Testing/esp-idf/components/bootloader_support/include_priv/bootloader_sha.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/rom/sha.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/dport_access.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_attr.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_dport_access.h:
+
+/home/mtacti/Testing/ActiveLowApp/build/bootloader/../include/sdkconfig.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/hwcrypto_reg.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h:
+/home/mtacti/Testing/esp-idf/components/bootloader_support/src/bootloader_sha.c:
+>>>>>>> 38d74ac2b3300aa3c232b80aeb3b32854f90c890

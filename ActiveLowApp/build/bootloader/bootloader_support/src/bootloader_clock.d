@@ -1,4 +1,5 @@
 src/bootloader_clock.o: \
+<<<<<<< HEAD
  /home/albert/ESP32_101/esp-idf/components/bootloader_support/src/bootloader_clock.c \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/rom/uart.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_types.h \
@@ -82,3 +83,55 @@ src/bootloader_clock.o: \
 
 /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h:
 /home/albert/ESP32_101/esp-idf/components/bootloader_support/src/bootloader_clock.c:
+=======
+ /home/mtacti/Testing/esp-idf/components/bootloader_support/src/bootloader_clock.c \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/rom/uart.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_types.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_attr.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_assert.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/rom/rtc.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/rtc.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_dport_access.h \
+ /home/mtacti/Testing/ActiveLowApp/build/bootloader/../include/sdkconfig.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/rom/uart.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_types.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_attr.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/rom/rtc.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/rtc.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/dport_access.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_dport_access.h:
+
+/home/mtacti/Testing/ActiveLowApp/build/bootloader/../include/sdkconfig.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/efuse_reg.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h:
+/home/mtacti/Testing/esp-idf/components/bootloader_support/src/bootloader_clock.c:
+>>>>>>> 38d74ac2b3300aa3c232b80aeb3b32854f90c890

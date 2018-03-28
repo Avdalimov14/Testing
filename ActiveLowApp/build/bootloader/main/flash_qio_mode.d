@@ -1,4 +1,5 @@
 flash_qio_mode.o: \
+<<<<<<< HEAD
  /home/albert/ESP32_101/esp-idf/components/bootloader/subproject/main/./flash_qio_mode.c \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -109,3 +110,52 @@ flash_qio_mode.o: \
 
 /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/efuse_reg.h:
 /home/albert/ESP32_101/esp-idf/components/bootloader/subproject/main/./flash_qio_mode.c:
+=======
+ /home/mtacti/Testing/esp-idf/components/bootloader/subproject/main/./flash_qio_mode.c \
+ /home/mtacti/Testing/esp-idf/components/bootloader/subproject/main/./flash_qio_mode.h \
+ /home/mtacti/Testing/esp-idf/components/log/include/esp_log.h \
+ /home/mtacti/Testing/ActiveLowApp/build/bootloader/../include/sdkconfig.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_assert.h \
+ /home/mtacti/Testing/esp-idf/components/log/include/esp_log_internal.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_err.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/rom/spi_flash.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_attr.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/spi_reg.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/rom/efuse.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/efuse_reg.h
+
+/home/mtacti/Testing/esp-idf/components/bootloader/subproject/main/./flash_qio_mode.h:
+
+/home/mtacti/Testing/esp-idf/components/log/include/esp_log.h:
+
+/home/mtacti/Testing/ActiveLowApp/build/bootloader/../include/sdkconfig.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/mtacti/Testing/esp-idf/components/log/include/esp_log_internal.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_err.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/rom/spi_flash.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_attr.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/spi_reg.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/rom/efuse.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/spi_struct.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/efuse_reg.h:
+/home/mtacti/Testing/esp-idf/components/bootloader/subproject/main/./flash_qio_mode.c:
+>>>>>>> 38d74ac2b3300aa3c232b80aeb3b32854f90c890

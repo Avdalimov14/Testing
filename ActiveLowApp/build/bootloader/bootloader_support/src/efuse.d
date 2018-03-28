@@ -1,4 +1,5 @@
 src/efuse.o: \
+<<<<<<< HEAD
  /home/albert/ESP32_101/esp-idf/components/bootloader_support/src/efuse.c \
  /home/albert/ESP32_101/esp-idf/components/bootloader_support/include/esp_efuse.h \
  /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
@@ -58,3 +59,34 @@ src/efuse.o: \
 
 /home/albert/ESP32_101/esp-idf/components/log/include/esp_log_internal.h:
 /home/albert/ESP32_101/esp-idf/components/bootloader_support/src/efuse.c:
+=======
+ /home/mtacti/Testing/esp-idf/components/bootloader_support/src/efuse.c \
+ /home/mtacti/Testing/esp-idf/components/bootloader_support/include/esp_efuse.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_assert.h \
+ /home/mtacti/Testing/esp-idf/components/log/include/esp_log.h \
+ /home/mtacti/Testing/ActiveLowApp/build/bootloader/../include/sdkconfig.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/mtacti/Testing/esp-idf/components/log/include/esp_log_internal.h
+
+/home/mtacti/Testing/esp-idf/components/bootloader_support/include/esp_efuse.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/efuse_reg.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/mtacti/Testing/esp-idf/components/log/include/esp_log.h:
+
+/home/mtacti/Testing/ActiveLowApp/build/bootloader/../include/sdkconfig.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/mtacti/Testing/esp-idf/components/log/include/esp_log_internal.h:
+/home/mtacti/Testing/esp-idf/components/bootloader_support/src/efuse.c:
+>>>>>>> 38d74ac2b3300aa3c232b80aeb3b32854f90c890

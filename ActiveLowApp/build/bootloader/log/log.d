@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 log.o: /home/albert/ESP32_101/esp-idf/components/log/./log.c \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_attr.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/xtensa/hal.h \
@@ -111,3 +112,37 @@ log.o: /home/albert/ESP32_101/esp-idf/components/log/./log.c \
 
 /home/albert/ESP32_101/esp-idf/components/soc/include/soc/soc_memory_layout.h:
 /home/albert/ESP32_101/esp-idf/components/log/./log.c:
+=======
+log.o: /home/mtacti/Testing/esp-idf/components/log/./log.c \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_attr.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/xtensa/hal.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_assert.h \
+ /home/mtacti/Testing/esp-idf/components/log/include/esp_log.h \
+ /home/mtacti/Testing/ActiveLowApp/build/bootloader/../include/sdkconfig.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/mtacti/Testing/esp-idf/components/log/include/esp_log_internal.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/rom/queue.h \
+ /home/mtacti/Testing/esp-idf/components/soc/include/soc/soc_memory_layout.h
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_attr.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/xtensa/hal.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/mtacti/Testing/esp-idf/components/log/include/esp_log.h:
+
+/home/mtacti/Testing/ActiveLowApp/build/bootloader/../include/sdkconfig.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/home/mtacti/Testing/esp-idf/components/log/include/esp_log_internal.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/rom/queue.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/include/soc/soc_memory_layout.h:
+/home/mtacti/Testing/esp-idf/components/log/./log.c:
+>>>>>>> 38d74ac2b3300aa3c232b80aeb3b32854f90c890

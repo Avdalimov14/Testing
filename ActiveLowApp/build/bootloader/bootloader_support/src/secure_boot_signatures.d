@@ -1,4 +1,5 @@
 src/secure_boot_signatures.o: \
+<<<<<<< HEAD
  /home/albert/ESP32_101/esp-idf/components/bootloader_support/src/secure_boot_signatures.c \
  /home/albert/Testing/ActiveLowApp/build/bootloader/../include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/bootloader_support/include_priv/bootloader_flash.h \
@@ -127,3 +128,61 @@ src/secure_boot_signatures.o: \
 
 /home/albert/ESP32_101/esp-idf/components/esp32/include/rom/sha.h:
 /home/albert/ESP32_101/esp-idf/components/bootloader_support/src/secure_boot_signatures.c:
+=======
+ /home/mtacti/Testing/esp-idf/components/bootloader_support/src/secure_boot_signatures.c \
+ /home/mtacti/Testing/ActiveLowApp/build/bootloader/../include/sdkconfig.h \
+ /home/mtacti/Testing/esp-idf/components/bootloader_support/include_priv/bootloader_flash.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_err.h \
+ /home/mtacti/Testing/esp-idf/components/spi_flash/include/esp_spi_flash.h \
+ /home/mtacti/Testing/esp-idf/components/bootloader_support/include_priv/bootloader_sha.h \
+ /home/mtacti/Testing/esp-idf/components/log/include/esp_log.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_assert.h \
+ /home/mtacti/Testing/esp-idf/components/log/include/esp_log_internal.h \
+ /home/mtacti/Testing/esp-idf/components/bootloader_support/include/esp_image_format.h \
+ /home/mtacti/Testing/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/esp_flash_data_types.h \
+ /home/mtacti/Testing/esp-idf/components/bootloader_support/include/esp_secure_boot.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
+ /home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/mtacti/Testing/esp-idf/components/micro-ecc/micro-ecc/uECC.h \
+ /home/mtacti/Testing/esp-idf/components/esp32/include/rom/sha.h
+
+/home/mtacti/Testing/ActiveLowApp/build/bootloader/../include/sdkconfig.h:
+
+/home/mtacti/Testing/esp-idf/components/bootloader_support/include_priv/bootloader_flash.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_err.h:
+
+/home/mtacti/Testing/esp-idf/components/spi_flash/include/esp_spi_flash.h:
+
+/home/mtacti/Testing/esp-idf/components/bootloader_support/include_priv/bootloader_sha.h:
+
+/home/mtacti/Testing/esp-idf/components/log/include/esp_log.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/mtacti/Testing/esp-idf/components/log/include/esp_log_internal.h:
+
+/home/mtacti/Testing/esp-idf/components/bootloader_support/include/esp_image_format.h:
+
+/home/mtacti/Testing/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/esp_flash_data_types.h:
+
+/home/mtacti/Testing/esp-idf/components/bootloader_support/include/esp_secure_boot.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/efuse_reg.h:
+
+/home/mtacti/Testing/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/mtacti/Testing/esp-idf/components/micro-ecc/micro-ecc/uECC.h:
+
+/home/mtacti/Testing/esp-idf/components/esp32/include/rom/sha.h:
+/home/mtacti/Testing/esp-idf/components/bootloader_support/src/secure_boot_signatures.c:
+>>>>>>> 38d74ac2b3300aa3c232b80aeb3b32854f90c890
