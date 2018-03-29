@@ -1,5 +1,5 @@
 buzzer_test_main.o: \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/main/./buzzer_test_main.c \
+ /home/albert/Testing/BuzzTestApp/main/./buzzer_test_main.c \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdio.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/_ansi.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/newlib.h \
@@ -22,7 +22,7 @@ buzzer_test_main.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/BuzzTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -130,7 +130,7 @@ buzzer_test_main.o: \
 
 /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/BuzzTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -255,4 +255,4 @@ buzzer_test_main.o: \
 /home/albert/ESP32_101/esp-idf/components/log/include/esp_log.h:
 
 /home/albert/ESP32_101/esp-idf/components/log/include/esp_log_internal.h:
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/main/./buzzer_test_main.c:
+/home/albert/Testing/BuzzTestApp/main/./buzzer_test_main.c:

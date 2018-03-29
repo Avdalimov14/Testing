@@ -14,6 +14,10 @@
 #include "esp_log.h"
 
 #define GPIO_INPUT_PIN_SEL 1ULL << GPIO_NUM_4
+#define GPIO_OUTPUT_RRGB1   	GPIO_NUM_14//14
+#define GPIO_OUTPUT_GRGB1   	GPIO_NUM_12//12
+#define GPIO_OUTPUT_BRGB1   	GPIO_NUM_27//27
+#define GPIO_OUTPUT_PIN_SEL  ((1ULL<<GPIO_OUTPUT_RRGB1) | (1ULL<<GPIO_OUTPUT_GRGB1) | (1ULL<<GPIO_OUTPUT_BRGB1))
 /*
  * About this example
  *
@@ -74,6 +78,17 @@ void app_main()
 	io_conf.pull_down_en = GPIO_PULLDOWN_DISABLE;
 	gpio_config(&io_conf);
 
+	//bit mask of the pins
+	io_conf.pin_bit_mask = GPIO_OUTPUT_PIN_SEL;
+	//set as input mode
+	io_conf.mode = GPIO_MODE_OUTPUT;
+	//enable pull-up mode
+	io_conf.pull_up_en = GPIO_PULLUP_DISABLE;
+	io_conf.pull_down_en = GPIO_PULLDOWN_DISABLE;
+	gpio_config(&io_conf);
+	gpio_set_level(GPIO_OUTPUT_RRGB1, 1ULL); // LED off
+	gpio_set_level(GPIO_OUTPUT_GRGB1, 1ULL);
+	gpio_set_level(GPIO_OUTPUT_BRGB1, 1ULL);
     /*
      * Prepare and set configuration of timers
      * that will be used by LED Controller
@@ -150,6 +165,7 @@ void app_main()
 
     	if (gpio_get_level(GPIO_NUM_4) == 0) {
 
+
     		switch(ledc_timer.freq_hz)
     		{
     			case 1000:
@@ -171,12 +187,15 @@ void app_main()
     				break;
     		}
     		ledc_timer_config(&ledc_timer);
+    		gpio_set_level(GPIO_NUM_14, 1); // Led Off
     	}
 
     	if (gpio_get_level(GPIO_NUM_0) == 0) {
     		state++;
-    		if (state == 8)
+    		if (state == 8) {
     			state = 0;
+    			gpio_set_level(GPIO_NUM_14, NULL); // Led Off
+    		}
 
 			switch (state)
 			{
