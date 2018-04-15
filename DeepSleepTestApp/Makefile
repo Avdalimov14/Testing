@@ -3,7 +3,7 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := ledc
+PROJECT_NAME := testCode
 
 include $(IDF_PATH)/make/project.mk
 

@@ -1,238 +1,238 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+/home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                               (call_start_cpu0)
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                              /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_mmap)
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
-                              /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_clock_configure)
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                              /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (esp_partition_table_basic_verify)
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                              /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (esp_image_load)
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
-                              /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o) (bootloader_sha256_start)
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                              /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o) (bootloader_fill_random)
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
-                              /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (esp_log_timestamp)
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                              /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (esp_rom_spiflash_unlock)
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
-                              /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (rtc_vddsdio_get_config)
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                              /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o) (rtc_clk_slow_freq_get)
-/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
-                              /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o) (rtc_clk_cal_ratio)
+/home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                              /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_mmap)
+/home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                              /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_clock_configure)
+/home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                              /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (esp_partition_table_basic_verify)
+/home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                              /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (esp_image_load)
+/home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                              /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o) (bootloader_sha256_start)
+/home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                              /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o) (bootloader_fill_random)
+/home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+                              /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (esp_log_timestamp)
+/home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                              /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (esp_rom_spiflash_unlock)
+/home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                              /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o) (rtc_vddsdio_get_config)
+/home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                              /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o) (rtc_clk_slow_freq_get)
+/home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                              /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o) (rtc_clk_cal_ratio)
 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
-                              /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o) (__bswapsi2)
+                              /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o) (__bswapsi2)
 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
-                              /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o) (__udivdi3)
+                              /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o) (__udivdi3)
 
 Allocating common symbols
 Common symbol       size              file
 
 esp_image_spi_freq_t
-                    0x4               /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                    0x4               /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .data          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .bss           0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .xt.lit        0x0000000000000000       0xa0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .xt.prop       0x0000000000000000      0xb58 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- COMMON         0x0000000000000000        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .text          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .data          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .bss           0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xt.lit        0x0000000000000000       0xa0 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xt.prop       0x0000000000000000      0x948 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ COMMON         0x0000000000000000        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
  .literal.bootloader_flash_write
-                0x0000000000000000       0x40 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000       0x40 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_erase_sector
-                0x0000000000000000        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .text          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .data          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .bss           0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .text          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .data          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .bss           0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .text.bootloader_flash_write
-                0x0000000000000000       0xb2 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000       0xb2 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .text.bootloader_flash_erase_sector
-                0x0000000000000000       0x16 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xt.lit        0x0000000000000000       0x40 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xt.prop       0x0000000000000000      0x360 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .text          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .data          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .bss           0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .xt.lit        0x0000000000000000        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .xt.prop       0x0000000000000000       0x48 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .text          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .data          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .bss           0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xt.lit        0x0000000000000000        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xt.prop       0x0000000000000000       0xe4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000000000000       0x16 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xt.lit        0x0000000000000000       0x40 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xt.prop       0x0000000000000000      0x360 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .text          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .data          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .bss           0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .xt.lit        0x0000000000000000        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .xt.prop       0x0000000000000000       0x60 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .text          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .data          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .bss           0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xt.lit        0x0000000000000000        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xt.prop       0x0000000000000000       0xe4 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .literal.esp_image_verify_bootloader
-                0x0000000000000000        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .text          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .data          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .bss           0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .rodata        0x0000000000000000        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000000000000        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .text          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .data          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .bss           0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .rodata        0x0000000000000000        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .text.esp_image_verify_bootloader
-                0x0000000000000000       0x32 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xt.lit        0x0000000000000000       0x48 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xt.prop       0x0000000000000000      0x660 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .text          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .data          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .bss           0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .xt.lit        0x0000000000000000       0x18 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .xt.prop       0x0000000000000000      0x198 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .text          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .data          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .bss           0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .xt.lit        0x0000000000000000       0x18 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .xt.prop       0x0000000000000000       0xcc /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000000000000       0x32 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xt.lit        0x0000000000000000       0x48 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xt.prop       0x0000000000000000      0x624 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .text          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .data          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .bss           0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .xt.lit        0x0000000000000000       0x18 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .xt.prop       0x0000000000000000      0x198 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .text          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .data          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .bss           0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .xt.lit        0x0000000000000000       0x18 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .xt.prop       0x0000000000000000       0xcc /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .literal.esp_log_buffer_hex_internal
-                0x0000000000000000       0x50 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000       0x50 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
  .literal.esp_log_buffer_char_internal
-                0x0000000000000000       0x50 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000       0x50 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
  .literal.esp_log_buffer_hexdump_internal
-                0x0000000000000000       0x78 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
- .text          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
- .data          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
- .bss           0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000       0x78 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+ .text          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+ .data          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+ .bss           0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
  .rodata.str1.4
-                0x0000000000000000       0xa6 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000       0xa6 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
  .text.esp_log_buffer_hex_internal
-                0x0000000000000000      0x11a /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000      0x11a /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
  .text.esp_log_buffer_char_internal
-                0x0000000000000000      0x107 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000      0x107 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
  .text.esp_log_buffer_hexdump_internal
-                0x0000000000000000      0x1da /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
- .xt.lit        0x0000000000000000       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
- .xt.prop       0x0000000000000000      0x354 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000      0x1da /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+ .xt.lit        0x0000000000000000       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+ .xt.prop       0x0000000000000000      0x354 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
  .literal.spi_cache_mode_switch
-                0x0000000000000000       0x38 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x38 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_chip_internal
-                0x0000000000000000       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_block_internal
-                0x0000000000000000       0x18 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_sector_internal
-                0x0000000000000000       0x18 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_enable_write
-                0x0000000000000000       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_program_page_internal
-                0x0000000000000000       0x24 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x24 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_lock
-                0x0000000000000000       0x18 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_config_readmode
-                0x0000000000000000       0x30 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x30 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_chip
-                0x0000000000000000        0xc /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000        0xc /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_block
-                0x0000000000000000       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_sector
-                0x0000000000000000       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_write
-                0x0000000000000000       0x28 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x28 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_write_encrypted
-                0x0000000000000000       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_area
-                0x0000000000000000       0x18 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .text          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .data          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .bss           0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .data          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .bss           0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.spi_cache_mode_switch
-                0x0000000000000000      0x266 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000      0x266 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_chip_internal
-                0x0000000000000000       0x30 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x30 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_block_internal
-                0x0000000000000000       0x3c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x3c /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_sector_internal
-                0x0000000000000000       0x44 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x44 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_enable_write
-                0x0000000000000000       0x3d /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x3d /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_program_page_internal
-                0x0000000000000000       0xee /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0xee /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_lock
-                0x0000000000000000       0x4e /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x4e /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_config_readmode
-                0x0000000000000000       0xa0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0xa0 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .rodata.esp_rom_spiflash_config_readmode
-                0x0000000000000000       0x18 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_chip
-                0x0000000000000000       0x24 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x24 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_block
-                0x0000000000000000       0x66 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x66 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_sector
-                0x0000000000000000       0x65 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x65 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_write
-                0x0000000000000000       0xca /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0xca /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_write_encrypted
-                0x0000000000000000       0x5a /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x5a /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_area
-                0x0000000000000000       0xbe /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .xt.lit        0x0000000000000000       0xa8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .xt.prop       0x0000000000000000      0xb1c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0xbe /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .xt.lit        0x0000000000000000       0xa8 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .xt.prop       0x0000000000000000      0xb1c /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.rtc_init
-                0x0000000000000000       0xb8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .text          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .data          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .bss           0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x0000000000000000       0xb8 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .text          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .data          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .bss           0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
  .text.rtc_init
-                0x0000000000000000      0x344 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .xt.lit        0x0000000000000000       0x18 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .xt.prop       0x0000000000000000       0xf0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x0000000000000000      0x344 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .xt.lit        0x0000000000000000       0x18 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .xt.prop       0x0000000000000000       0xf0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
  .literal.rtc_clk_32k_bootstrap
-                0x0000000000000000       0x14 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x14 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_32k_enabled
-                0x0000000000000000        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_apll_enable
-                0x0000000000000000       0x50 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x50 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_slow_freq_get_hz
-                0x0000000000000000       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_from_mhz
-                0x0000000000000000        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_to_xtal
-                0x0000000000000000       0x30 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x30 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_to_pll
-                0x0000000000000000       0x38 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x38 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_set_fast
-                0x0000000000000000       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .text          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .data          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .bss           0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .data          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .bss           0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_32k_bootstrap
-                0x0000000000000000       0x3c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x3c /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_32k_enabled
-                0x0000000000000000       0x1a /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x1a /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_apll_enable
-                0x0000000000000000      0x156 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000      0x156 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_slow_freq_get_hz
-                0x0000000000000000       0x29 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x29 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_cpu_freq_from_mhz
-                0x0000000000000000       0x4c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x4c /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_cpu_freq_to_xtal
-                0x0000000000000000       0x6f /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x6f /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_cpu_freq_to_pll
-                0x0000000000000000       0xdd /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0xdd /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_cpu_freq_set_fast
-                0x0000000000000000       0x32 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .xt.lit        0x0000000000000000       0xd8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .xt.prop       0x0000000000000000      0xb7c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x32 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .xt.lit        0x0000000000000000       0xd8 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .xt.prop       0x0000000000000000      0xb7c /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cal
-                0x0000000000000000        0xc /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000        0xc /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .literal.rtc_time_us_to_slowclk
-                0x0000000000000000        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .literal.rtc_time_get
-                0x0000000000000000       0x18 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .text          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .data          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .bss           0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x18 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .text          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .data          0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .bss           0x0000000000000000        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .text.rtc_clk_cal
-                0x0000000000000000       0x52 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x52 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .text.rtc_time_us_to_slowclk
-                0x0000000000000000       0x1f /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x1f /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .text.rtc_time_slowclk_to_us
-                0x0000000000000000       0x1c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x1c /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .text.rtc_time_get
-                0x0000000000000000       0x50 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .xt.lit        0x0000000000000000       0x30 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .xt.prop       0x0000000000000000      0x258 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x50 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xt.lit        0x0000000000000000       0x30 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xt.prop       0x0000000000000000      0x258 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .data          0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .bss           0x0000000000000000        0x0 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .xt.lit        0x0000000000000000        0x8 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
@@ -253,12 +253,12 @@ dram_seg         0x000000003fff0000 0x0000000000010000 rw
 Linker script and memory map
 
 START GROUP
-LOAD /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a
-LOAD /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a
-LOAD /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a
-LOAD /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/micro-ecc/libmicro-ecc.a
-LOAD /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a
-LOAD /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a
+LOAD /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a
+LOAD /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a
+LOAD /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a
+LOAD /home/albert/Testing/CompoTestApp/build/bootloader/micro-ecc/libmicro-ecc.a
+LOAD /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a
+LOAD /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a
 LOAD /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a
 LOAD /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/libstdc++.a
 LOAD /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcov.a
@@ -284,16 +284,16 @@ END GROUP
  *(.dynbss)
  *(.bss)
  *(.bss.*)
- .bss.mapped    0x000000003fff0000        0x1 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .bss.mapped    0x000000003fff0000        0x1 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  *fill*         0x000000003fff0001        0x3 
  .bss.ram_obfs_value
-                0x000000003fff0004        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000003fff0004        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .bss.words_hashed
-                0x000000003fff000c        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff000c        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .bss.s_pll_freq
-                0x000000003fff0010        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff0010        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .bss.s_cur_freq
-                0x000000003fff0014        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff0014        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  *(.gnu.linkonce.b.*)
  *(COMMON)
                 0x000000003fff0018                . = ALIGN (0x8)
@@ -304,7 +304,7 @@ END GROUP
  *(.data)
  *(.data.*)
  .data.current_read_mapping
-                0x000000003fff0018        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x000000003fff0018        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  *(.gnu.linkonce.d.*)
  *(.data1)
  *(.sdata)
@@ -316,667 +316,669 @@ END GROUP
  *(.jcr)
                 0x000000003fff001c                _data_end = ABSOLUTE (.)
 
-.dram0.rodata   0x000000003fff001c     0x15c0
+.dram0.rodata   0x000000003fff001c     0x1174
                 0x000000003fff001c                _rodata_start = ABSOLUTE (.)
  *(.rodata)
- .rodata        0x000000003fff001c       0x14 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .rodata        0x000000003fff0030        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .rodata        0x000000003fff001c       0x14 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .rodata        0x000000003fff0030        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  *(.rodata.*)
  .rodata.str1.4
-                0x000000003fff0038      0x962 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- *fill*         0x000000003fff099a        0x2 
+                0x000000003fff0038      0x57e /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ *fill*         0x000000003fff05b6        0x2 
  .rodata.__func__$3802
-                0x000000003fff099c       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000003fff05b8       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
  .rodata.str1.4
-                0x000000003fff09ac      0x28e /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- *fill*         0x000000003fff0c3a        0x2 
+                0x000000003fff05c8      0x28e /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x000000003fff0856        0x2 
  .rodata.str1.4
-                0x000000003fff0c3c       0xfb /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- *fill*         0x000000003fff0d37        0x1 
+                0x000000003fff0858       0xfb /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ *fill*         0x000000003fff0953        0x1 
  .rodata.str1.4
-                0x000000003fff0d38      0x45a /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                        0x49a (size before relaxing)
- *fill*         0x000000003fff1192        0x2 
+                0x000000003fff0954      0x3fa /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                        0x436 (size before relaxing)
+ *fill*         0x000000003fff0d4e        0x2 
  .rodata.str1.4
-                0x000000003fff1194       0xd0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff0d50       0xcc /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .rodata.padding$2493
-                0x000000003fff1264       0x40 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff0e1c       0x40 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .rodata.__func__$2489
-                0x000000003fff12a4       0x19 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- *fill*         0x000000003fff12bd        0x3 
+                0x000000003fff0e5c       0x19 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x000000003fff0e75        0x3 
  .rodata.__func__$2469
-                0x000000003fff12c0       0x17 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- *fill*         0x000000003fff12d7        0x1 
+                0x000000003fff0e78       0x17 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x000000003fff0e8f        0x1 
  .rodata.str1.4
-                0x000000003fff12d8      0x25c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                        0x259 (size before relaxing)
+                0x000000003fff0e90      0x258 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                        0x255 (size before relaxing)
  .rodata.rtc_clk_xtal_freq_estimate
-                0x000000003fff1534       0x64 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff10e8       0x64 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .rodata.rtc_clk_cpu_freq_value
-                0x000000003fff1598       0x14 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff114c       0x14 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .rodata.__func__$2616
-                0x000000003fff15ac       0x17 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x000000003fff15c3        0x1 
+                0x000000003fff1160       0x17 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x000000003fff1177        0x1 
  .rodata.__func__$2601
-                0x000000003fff15c4       0x15 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff1178       0x15 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
-                0x000000003fff15d9                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+                0x000000003fff118d                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
  *(.eh_frame)
-                0x000000003fff15dc                . = ((. + 0x3) & 0xfffffffffffffffc)
- *fill*         0x000000003fff15d9        0x3 
-                0x000000003fff15dc                __init_array_start = ABSOLUTE (.)
+                0x000000003fff1190                . = ((. + 0x3) & 0xfffffffffffffffc)
+ *fill*         0x000000003fff118d        0x3 
+                0x000000003fff1190                __init_array_start = ABSOLUTE (.)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *(.ctors)
-                0x000000003fff15dc                __init_array_end = ABSOLUTE (.)
+                0x000000003fff1190                __init_array_end = ABSOLUTE (.)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x000000003fff15dc                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+                0x000000003fff1190                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x000000003fff15dc                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x000000003fff1190                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
  *(.dynamic)
  *(.gnu.version_d)
-                0x000000003fff15dc                _rodata_end = ABSOLUTE (.)
-                0x000000003fff15dc                _lit4_start = ABSOLUTE (.)
+                0x000000003fff1190                _rodata_end = ABSOLUTE (.)
+                0x000000003fff1190                _lit4_start = ABSOLUTE (.)
  *(*.lit4)
  *(.lit4.*)
  *(.gnu.linkonce.lit4.*)
-                0x000000003fff15dc                _lit4_end = ABSOLUTE (.)
-                0x000000003fff15dc                . = ALIGN (0x4)
-                0x000000003fff15dc                _heap_start = ABSOLUTE (.)
+                0x000000003fff1190                _lit4_end = ABSOLUTE (.)
+                0x000000003fff1190                . = ALIGN (0x4)
+                0x000000003fff1190                _heap_start = ABSOLUTE (.)
 
-.iram.text      0x0000000040078000     0x35a7
+.iram.text      0x0000000040078000     0x32cf
                 0x0000000040078000                _stext = .
                 0x0000000040078000                _text_start = ABSOLUTE (.)
  *(.literal .text .literal.* .text.* .stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
- .literal.wdt_reset_cpu0_info_enable
-                0x0000000040078000        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .literal.wdt_reset_info_dump
-                0x0000000040078004       0x60 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
-                                         0x6c (size before relaxing)
  .literal.print_flash_info
-                0x0000000040078064       0x4c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
-                                         0x68 (size before relaxing)
+                0x0000000040078000        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .literal.wdt_reset_cpu0_info_enable
+                0x0000000040078004        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .literal.wdt_reset_info_dump
+                0x0000000040078008       0x60 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x6c (size before relaxing)
  .literal.log_invalid_app_partition
-                0x00000000400780b0       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078068       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x2c (size before relaxing)
  .literal.vddsdio_configure
-                0x00000000400780c0        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078078        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                           0xc (size before relaxing)
  .literal.uart_console_configure
-                0x00000000400780c4       0x14 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000004007807c       0x14 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x18 (size before relaxing)
  .literal.wdt_reset_check
-                0x00000000400780d8        0xc /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078090        0xc /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x30 (size before relaxing)
  .literal.update_flash_config
-                0x00000000400780e4       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000004007809c       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
  .literal.ota_select_crc
-                0x0000000040078104        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400780bc        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
  .literal.ota_select_valid
-                0x0000000040078108        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400780c0        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                           0x4 (size before relaxing)
  .literal.get_selected_boot_partition
-                0x0000000040078108       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
-                                         0x70 (size before relaxing)
+                0x00000000400780c0       0x18 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x58 (size before relaxing)
  .literal.try_load_partition
-                0x0000000040078128        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
-                                         0x14 (size before relaxing)
+                0x00000000400780d8        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                                          0x4 (size before relaxing)
  .literal.load_boot_image
-                0x000000004007812c        0xc /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400780d8        0xc /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x3c (size before relaxing)
  .literal.set_cache_and_start_app
-                0x0000000040078138       0x14 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400780e4       0x14 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x30 (size before relaxing)
  .literal.unpack_load_app
-                0x000000004007814c       0x1c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400780f8       0x1c /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x34 (size before relaxing)
  .literal.load_partition_table
-                0x0000000040078168       0x40 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
-                                         0x84 (size before relaxing)
+                0x0000000040078114        0xc /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x30 (size before relaxing)
  .literal.bootloader_main
-                0x00000000400781a8       0x2c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
-                                         0xa4 (size before relaxing)
+                0x0000000040078120       0x18 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x70 (size before relaxing)
  .literal.__assert_func
-                0x00000000400781d4        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078138        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x10 (size before relaxing)
  .literal.call_start_cpu0
-                0x00000000400781d8       0x3c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000004007813c       0x3c /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x74 (size before relaxing)
  .literal.spi_to_esp_err
-                0x0000000040078214        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078178        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_read_allow_decrypt
-                0x000000004007821c       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078180       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x30 (size before relaxing)
  .literal.bootloader_flash_read_no_decrypt
-                0x000000004007822c        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078190        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x14 (size before relaxing)
  .literal.bootloader_mmap
-                0x000000004007822c       0x14 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078190       0x14 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x50 (size before relaxing)
  .literal.bootloader_munmap
-                0x0000000040078240        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x00000000400781a4        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x14 (size before relaxing)
  .literal.bootloader_flash_read
-                0x0000000040078240        0xc /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x00000000400781a4        0xc /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x30 (size before relaxing)
  .literal.bootloader_clock_configure
-                0x000000004007824c       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                0x00000000400781b0       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
                                          0x20 (size before relaxing)
  .literal.esp_partition_table_basic_verify
-                0x000000004007825c       0x14 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x00000000400781c0       0x14 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
                                          0x30 (size before relaxing)
  .literal.should_map
-                0x0000000040078270        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400781d4        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x10 (size before relaxing)
  .literal.verify_image_header
-                0x0000000040078270       0x14 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400781d4       0x14 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x2c (size before relaxing)
  .literal.verify_segment_header
-                0x0000000040078284        0xc /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400781e8        0xc /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x28 (size before relaxing)
  .literal.verify_checksum
-                0x0000000040078290        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400781f4        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x1c (size before relaxing)
  .literal.verify_simple_hash
-                0x0000000040078294        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400781f8        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x2c (size before relaxing)
  .literal.should_load
-                0x000000004007829c        0xc /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078200        0xc /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x18 (size before relaxing)
  .literal.process_segment
-                0x00000000400782a8       0x28 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                         0x7c (size before relaxing)
+                0x000000004007820c       0x18 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                         0x60 (size before relaxing)
  .literal.esp_image_load
-                0x00000000400782d0       0x14 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078224       0x14 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x74 (size before relaxing)
  .literal.bootloader_sha256_start
-                0x00000000400782e4        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x0000000040078238        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .literal.bootloader_sha256_data
-                0x00000000400782ec       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x0000000040078240       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0x30 (size before relaxing)
  .literal.bootloader_sha256_finish
-                0x000000004007830c       0x18 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x0000000040078260       0x18 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0x4c (size before relaxing)
  .literal.bootloader_fill_random
-                0x0000000040078324        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000040078278        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .literal.bootloader_random_enable
-                0x000000004007832c       0x6c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000040078280       0x6c /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                                          0x78 (size before relaxing)
  .literal.bootloader_random_disable
-                0x0000000040078398       0x1c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x00000000400782ec       0x1c /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                                          0x4c (size before relaxing)
  .literal.esp_log_early_timestamp
-                0x00000000400783b4        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
+                0x0000000040078308        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
  .literal.esp_rom_spiflash_read_status
-                0x00000000400783bc       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078310       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x14 (size before relaxing)
  .literal.esp_rom_spiflash_wait_idle
-                0x00000000400783cc        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078320        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                           0xc (size before relaxing)
  .literal.esp_rom_spiflash_read_data
-                0x00000000400783d4       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078328       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x18 (size before relaxing)
  .literal.esp_rom_spiflash_read_statushigh
-                0x00000000400783e4        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078338        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                           0xc (size before relaxing)
  .literal.esp_rom_spiflash_write_status
-                0x00000000400783e8        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007833c        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x14 (size before relaxing)
  .literal.esp_rom_spiflash_unlock
-                0x00000000400783e8        0xc /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007833c        0xc /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x28 (size before relaxing)
  .literal.esp_rom_spiflash_read
-                0x00000000400783f4       0x3c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078348       0x3c /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x5c (size before relaxing)
  .literal.rtc_vddsdio_get_config
-                0x0000000040078430       0x24 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x0000000040078384       0x24 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
                                          0x2c (size before relaxing)
  .literal.rtc_vddsdio_set_config
-                0x0000000040078454        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x00000000400783a8        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
                                           0x8 (size before relaxing)
  .literal.rtc_clk_32k_enable_internal
-                0x0000000040078458       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400783ac       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x14 (size before relaxing)
  .literal.rtc_clk_32k_enable
-                0x0000000040078468        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400783bc        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0xc (size before relaxing)
  .literal.rtc_clk_8m_enable
-                0x000000004007846c        0xc /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400783c0        0xc /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x10 (size before relaxing)
  .literal.rtc_clk_8m_enabled
-                0x0000000040078478        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400783cc        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x4 (size before relaxing)
  .literal.rtc_clk_8md256_enabled
-                0x0000000040078478        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400783cc        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x4 (size before relaxing)
  .literal.rtc_clk_xtal_freq_estimate
-                0x0000000040078478       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400783cc       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x4c (size before relaxing)
  .literal.rtc_clk_slow_freq_set
-                0x0000000040078498        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400783ec        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0xc (size before relaxing)
  .literal.rtc_clk_slow_freq_get
-                0x0000000040078498        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400783ec        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x4 (size before relaxing)
  .literal.rtc_clk_fast_freq_set
-                0x0000000040078498        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400783ec        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0xc (size before relaxing)
  .literal.rtc_clk_fast_freq_get
-                0x0000000040078498        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400783ec        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x4 (size before relaxing)
  .literal.rtc_clk_bbpll_set
-                0x0000000040078498       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400783ec       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x38 (size before relaxing)
  .literal.rtc_clk_xtal_freq_get
-                0x00000000400784a8        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400783fc        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x1c (size before relaxing)
  .literal.rtc_clk_cpu_freq_get
-                0x00000000400784b0       0x14 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078404       0x14 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x28 (size before relaxing)
  .literal.rtc_clk_cpu_freq_value
-                0x00000000400784c4       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078418       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x2c (size before relaxing)
  .literal.rtc_clk_xtal_freq_update
-                0x00000000400784e4        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078438        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x8 (size before relaxing)
  .literal.rtc_clk_apb_freq_update
-                0x00000000400784e4        0x4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078438        0x4 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x8 (size before relaxing)
  .literal.rtc_clk_cpu_freq_set
-                0x00000000400784e8       0x1c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007843c       0x1c /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x78 (size before relaxing)
  .literal.rtc_clk_apb_freq_get
-                0x0000000040078504        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078458        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x14 (size before relaxing)
  .literal.rtc_clk_init
-                0x000000004007850c       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078460       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x94 (size before relaxing)
  .literal.rtc_clk_cal_internal
-                0x000000004007852c       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040078480       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0x3c (size before relaxing)
  .literal.rtc_clk_cal_ratio
-                0x000000004007854c        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x00000000400784a0        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
                                           0x8 (size before relaxing)
  .literal.rtc_clk_wait_for_slow_cycle
-                0x000000004007854c        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x00000000400784a0        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0x20 (size before relaxing)
- .literal       0x0000000040078554        0x8 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .literal       0x00000000400784a8        0x8 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .iram1.literal
-                0x000000004007855c       0x30 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400784b0       0x30 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x60 (size before relaxing)
- .text.wdt_reset_cpu0_info_enable
-                0x000000004007858c       0x27 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- *fill*         0x00000000400785b3        0x1 
- .text.wdt_reset_info_dump
-                0x00000000400785b4       0xe6 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- *fill*         0x000000004007869a        0x2 
  .text.print_flash_info
-                0x000000004007869c       0xee /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
-                                         0xf2 (size before relaxing)
- *fill*         0x000000004007878a        0x2 
+                0x00000000400784e0        0xd /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ *fill*         0x00000000400784ed        0x3 
+ .text.wdt_reset_cpu0_info_enable
+                0x00000000400784f0       0x27 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ *fill*         0x0000000040078517        0x1 
+ .text.wdt_reset_info_dump
+                0x0000000040078518       0xe6 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ *fill*         0x00000000400785fe        0x2 
  .text.log_invalid_app_partition
-                0x000000004007878c       0x57 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078600       0x57 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x5b (size before relaxing)
- *fill*         0x00000000400787e3        0x1 
+ *fill*         0x0000000040078657        0x1 
  .text.vddsdio_configure
-                0x00000000400787e4       0x33 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078658       0x33 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x37 (size before relaxing)
- *fill*         0x0000000040078817        0x1 
+ *fill*         0x000000004007868b        0x1 
  .text.uart_console_configure
-                0x0000000040078818       0x36 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000004007868c       0x36 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x3a (size before relaxing)
- *fill*         0x000000004007884e        0x2 
+ *fill*         0x00000000400786c2        0x2 
  .text.wdt_reset_check
-                0x0000000040078850       0xa2 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400786c4       0xa2 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0xae (size before relaxing)
- *fill*         0x00000000400788f2        0x2 
+ *fill*         0x0000000040078766        0x2 
  .text.update_flash_config
-                0x00000000400788f4       0x68 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078768       0x68 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
  .text.ota_select_crc
-                0x000000004007895c       0x14 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400787d0       0x14 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
  .text.ota_select_valid
-                0x0000000040078970       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400787e4       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x24 (size before relaxing)
  .text.get_selected_boot_partition
-                0x0000000040078990      0x140 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0x14c (size before relaxing)
+                0x0000000040078804      0x11c /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                                        0x124 (size before relaxing)
  .text.try_load_partition
-                0x0000000040078ad0       0x34 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
-                                         0x38 (size before relaxing)
+                0x0000000040078920       0x1e /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x22 (size before relaxing)
+ *fill*         0x000000004007893e        0x2 
  .text.load_boot_image
-                0x0000000040078b04       0xa6 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078940       0xa6 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0xba (size before relaxing)
- *fill*         0x0000000040078baa        0x2 
+ *fill*         0x00000000400789e6        0x2 
  .text.set_cache_and_start_app
-                0x0000000040078bac       0xcf /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- *fill*         0x0000000040078c7b        0x1 
+                0x00000000400789e8       0xcf /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ *fill*         0x0000000040078ab7        0x1 
  .text.unpack_load_app
-                0x0000000040078c7c       0xb2 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078ab8       0xb2 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0xb6 (size before relaxing)
- *fill*         0x0000000040078d2e        0x2 
+ *fill*         0x0000000040078b6a        0x2 
  .text.load_partition_table
-                0x0000000040078d30      0x160 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0x17c (size before relaxing)
-                0x0000000040078d30                load_partition_table
+                0x0000000040078b6c       0xc9 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0xd5 (size before relaxing)
+                0x0000000040078b6c                load_partition_table
+ *fill*         0x0000000040078c35        0x3 
  .text.bootloader_main
-                0x0000000040078e90      0x10f /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0x14f (size before relaxing)
-                0x0000000040078e90                bootloader_main
- *fill*         0x0000000040078f9f        0x1 
+                0x0000000040078c38       0xc6 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0xfa (size before relaxing)
+                0x0000000040078c38                bootloader_main
+ *fill*         0x0000000040078cfe        0x2 
  .text.__assert_func
-                0x0000000040078fa0       0x1f /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078d00       0x1f /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x23 (size before relaxing)
-                0x0000000040078fa0                __assert_func
- *fill*         0x0000000040078fbf        0x1 
+                0x0000000040078d00                __assert_func
+ *fill*         0x0000000040078d1f        0x1 
  .text.call_start_cpu0
-                0x0000000040078fc0      0x127 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078d20      0x127 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                         0x133 (size before relaxing)
-                0x0000000040078fc0                call_start_cpu0
- *fill*         0x00000000400790e7        0x1 
+                0x0000000040078d20                call_start_cpu0
+ *fill*         0x0000000040078e47        0x1 
  .text.spi_to_esp_err
-                0x00000000400790e8       0x22 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- *fill*         0x000000004007910a        0x2 
+                0x0000000040078e48       0x22 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x0000000040078e6a        0x2 
  .text.bootloader_flash_read_allow_decrypt
-                0x000000004007910c       0x97 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078e6c       0x97 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x9b (size before relaxing)
- *fill*         0x00000000400791a3        0x1 
+ *fill*         0x0000000040078f03        0x1 
  .text.bootloader_flash_read_no_decrypt
-                0x00000000400791a4       0x32 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078f04       0x32 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x36 (size before relaxing)
- *fill*         0x00000000400791d6        0x2 
+ *fill*         0x0000000040078f36        0x2 
  .text.bootloader_mmap
-                0x00000000400791d8       0xb1 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078f38       0xb1 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0xb9 (size before relaxing)
-                0x00000000400791d8                bootloader_mmap
- *fill*         0x0000000040079289        0x3 
+                0x0000000040078f38                bootloader_mmap
+ *fill*         0x0000000040078fe9        0x3 
  .text.bootloader_munmap
-                0x000000004007928c       0x36 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                0x000000004007928c                bootloader_munmap
- *fill*         0x00000000400792c2        0x2 
+                0x0000000040078fec       0x36 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078fec                bootloader_munmap
+ *fill*         0x0000000040079022        0x2 
  .text.bootloader_flash_read
-                0x00000000400792c4       0x86 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                0x00000000400792c4                bootloader_flash_read
- *fill*         0x000000004007934a        0x2 
+                0x0000000040079024       0x86 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040079024                bootloader_flash_read
+ *fill*         0x00000000400790aa        0x2 
  .text.bootloader_clock_configure
-                0x000000004007934c       0x6e /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
-                                         0x76 (size before relaxing)
-                0x000000004007934c                bootloader_clock_configure
- *fill*         0x00000000400793ba        0x2 
+                0x00000000400790ac       0x76 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                                         0x82 (size before relaxing)
+                0x00000000400790ac                bootloader_clock_configure
+ *fill*         0x0000000040079122        0x2 
  .text.esp_partition_table_basic_verify
-                0x00000000400793bc       0xb1 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000040079124       0xb1 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
                                          0xb5 (size before relaxing)
-                0x00000000400793bc                esp_partition_table_basic_verify
- *fill*         0x000000004007946d        0x3 
+                0x0000000040079124                esp_partition_table_basic_verify
+ *fill*         0x00000000400791d5        0x3 
  .text.should_map
-                0x0000000040079470       0x30 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400791d8       0x30 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .text.verify_image_header
-                0x00000000400794a0       0x7e /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x000000004007951e        0x2 
+                0x0000000040079208       0x7e /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ *fill*         0x0000000040079286        0x2 
  .text.verify_segment_header
-                0x0000000040079520       0x71 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079288       0x71 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x79 (size before relaxing)
- *fill*         0x0000000040079591        0x3 
+ *fill*         0x00000000400792f9        0x3 
  .text.verify_checksum
-                0x0000000040079594       0x87 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400792fc       0x87 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x8f (size before relaxing)
- *fill*         0x000000004007961b        0x1 
+ *fill*         0x0000000040079383        0x1 
  .text.verify_simple_hash
-                0x000000004007961c       0x5b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079384       0x5b /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x6a (size before relaxing)
- *fill*         0x0000000040079677        0x1 
+ *fill*         0x00000000400793df        0x1 
  .text.should_load
-                0x0000000040079678       0x44 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400793e0       0x44 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x48 (size before relaxing)
  .text.process_segment
-                0x00000000400796bc      0x1bd /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                        0x1d1 (size before relaxing)
- *fill*         0x0000000040079879        0x3 
+                0x0000000040079424      0x181 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                        0x195 (size before relaxing)
+ *fill*         0x00000000400795a5        0x3 
  .text.esp_image_load
-                0x000000004007987c      0x24a /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                        0x262 (size before relaxing)
-                0x000000004007987c                esp_image_load
- *fill*         0x0000000040079ac6        0x2 
+                0x00000000400795a8      0x245 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                        0x261 (size before relaxing)
+                0x00000000400795a8                esp_image_load
+ *fill*         0x00000000400797ed        0x3 
  .text.bootloader_sha256_start
-                0x0000000040079ac8       0x12 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
-                0x0000000040079ac8                bootloader_sha256_start
- *fill*         0x0000000040079ada        0x2 
+                0x00000000400797f0       0x12 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x00000000400797f0                bootloader_sha256_start
+ *fill*         0x0000000040079802        0x2 
  .text.bootloader_sha256_data
-                0x0000000040079adc       0xa1 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x0000000040079804       0xa1 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0xa9 (size before relaxing)
-                0x0000000040079adc                bootloader_sha256_data
- *fill*         0x0000000040079b7d        0x3 
+                0x0000000040079804                bootloader_sha256_data
+ *fill*         0x00000000400798a5        0x3 
  .text.bootloader_sha256_finish
-                0x0000000040079b80       0xdc /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x00000000400798a8       0xdc /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0xf0 (size before relaxing)
-                0x0000000040079b80                bootloader_sha256_finish
+                0x00000000400798a8                bootloader_sha256_finish
  .text.bootloader_fill_random
-                0x0000000040079c5c       0x59 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                0x0000000040079c5c                bootloader_fill_random
- *fill*         0x0000000040079cb5        0x3 
+                0x0000000040079984       0x59 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000040079984                bootloader_fill_random
+ *fill*         0x00000000400799dd        0x3 
  .text.bootloader_random_enable
-                0x0000000040079cb8      0x1d5 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                0x0000000040079cb8                bootloader_random_enable
- *fill*         0x0000000040079e8d        0x3 
+                0x00000000400799e0      0x1d5 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x00000000400799e0                bootloader_random_enable
+ *fill*         0x0000000040079bb5        0x3 
  .text.bootloader_random_disable
-                0x0000000040079e90      0x11c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                0x0000000040079e90                bootloader_random_disable
+                0x0000000040079bb8      0x11c /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000040079bb8                bootloader_random_disable
  .text.esp_log_early_timestamp
-                0x0000000040079fac       0x1f /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
-                0x0000000040079fac                esp_log_timestamp
-                0x0000000040079fac                esp_log_early_timestamp
- *fill*         0x0000000040079fcb        0x1 
+                0x0000000040079cd4       0x1f /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+                0x0000000040079cd4                esp_log_timestamp
+                0x0000000040079cd4                esp_log_early_timestamp
+ *fill*         0x0000000040079cf3        0x1 
  .text.esp_rom_spiflash_read_status
-                0x0000000040079fcc       0x61 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x0000000040079fcc                esp_rom_spiflash_read_status
- *fill*         0x000000004007a02d        0x3 
+                0x0000000040079cf4       0x61 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079cf4                esp_rom_spiflash_read_status
+ *fill*         0x0000000040079d55        0x3 
  .text.esp_rom_spiflash_wait_idle
-                0x000000004007a030       0x32 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x000000004007a030                esp_rom_spiflash_wait_idle
- *fill*         0x000000004007a062        0x2 
+                0x0000000040079d58       0x32 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079d58                esp_rom_spiflash_wait_idle
+ *fill*         0x0000000040079d8a        0x2 
  .text.esp_rom_spiflash_read_data
-                0x000000004007a064       0xe2 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- *fill*         0x000000004007a146        0x2 
+                0x0000000040079d8c       0xe2 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ *fill*         0x0000000040079e6e        0x2 
  .text.esp_rom_spiflash_read_statushigh
-                0x000000004007a148       0x21 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x000000004007a148                esp_rom_spiflash_read_statushigh
- *fill*         0x000000004007a169        0x3 
+                0x0000000040079e70       0x21 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079e70                esp_rom_spiflash_read_statushigh
+ *fill*         0x0000000040079e91        0x3 
  .text.esp_rom_spiflash_write_status
-                0x000000004007a16c       0x34 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079e94       0x34 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x38 (size before relaxing)
-                0x000000004007a16c                esp_rom_spiflash_write_status
+                0x0000000040079e94                esp_rom_spiflash_write_status
  .text.esp_rom_spiflash_unlock
-                0x000000004007a1a0       0x6a /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079ec8       0x6a /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x7e (size before relaxing)
-                0x000000004007a1a0                esp_rom_spiflash_unlock
- *fill*         0x000000004007a20a        0x2 
+                0x0000000040079ec8                esp_rom_spiflash_unlock
+ *fill*         0x0000000040079f32        0x2 
  .text.esp_rom_spiflash_read
-                0x000000004007a20c      0x284 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x000000004007a20c                esp_rom_spiflash_read
+                0x0000000040079f34      0x284 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079f34                esp_rom_spiflash_read
  .text.rtc_vddsdio_get_config
-                0x000000004007a490      0x10a /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
-                0x000000004007a490                rtc_vddsdio_get_config
- *fill*         0x000000004007a59a        0x2 
+                0x000000004007a1b8      0x10a /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x000000004007a1b8                rtc_vddsdio_get_config
+ *fill*         0x000000004007a2c2        0x2 
  .text.rtc_vddsdio_set_config
-                0x000000004007a59c       0x46 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
-                0x000000004007a59c                rtc_vddsdio_set_config
- *fill*         0x000000004007a5e2        0x2 
+                0x000000004007a2c4       0x46 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x000000004007a2c4                rtc_vddsdio_set_config
+ *fill*         0x000000004007a30a        0x2 
  .text.rtc_clk_32k_enable_internal
-                0x000000004007a5e4       0x81 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x000000004007a665        0x3 
+                0x000000004007a30c       0x81 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x000000004007a38d        0x3 
  .text.rtc_clk_32k_enable
-                0x000000004007a668       0x2d /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a668                rtc_clk_32k_enable
- *fill*         0x000000004007a695        0x3 
+                0x000000004007a390       0x2d /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a390                rtc_clk_32k_enable
+ *fill*         0x000000004007a3bd        0x3 
  .text.rtc_clk_8m_enable
-                0x000000004007a698       0x99 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a698                rtc_clk_8m_enable
- *fill*         0x000000004007a731        0x3 
+                0x000000004007a3c0       0x99 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a3c0                rtc_clk_8m_enable
+ *fill*         0x000000004007a459        0x3 
  .text.rtc_clk_8m_enabled
-                0x000000004007a734       0x19 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a734                rtc_clk_8m_enabled
- *fill*         0x000000004007a74d        0x3 
+                0x000000004007a45c       0x19 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a45c                rtc_clk_8m_enabled
+ *fill*         0x000000004007a475        0x3 
  .text.rtc_clk_8md256_enabled
-                0x000000004007a750       0x1a /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a750                rtc_clk_8md256_enabled
- *fill*         0x000000004007a76a        0x2 
+                0x000000004007a478       0x1a /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a478                rtc_clk_8md256_enabled
+ *fill*         0x000000004007a492        0x2 
  .text.rtc_clk_xtal_freq_estimate
-                0x000000004007a76c       0xa6 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a494       0xa6 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0xb2 (size before relaxing)
- *fill*         0x000000004007a812        0x2 
+ *fill*         0x000000004007a53a        0x2 
  .text.rtc_clk_slow_freq_set
-                0x000000004007a814       0x27 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a814                rtc_clk_slow_freq_set
- *fill*         0x000000004007a83b        0x1 
+                0x000000004007a53c       0x27 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a53c                rtc_clk_slow_freq_set
+ *fill*         0x000000004007a563        0x1 
  .text.rtc_clk_slow_freq_get
-                0x000000004007a83c       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a83c                rtc_clk_slow_freq_get
+                0x000000004007a564       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a564                rtc_clk_slow_freq_get
  .text.rtc_clk_fast_freq_set
-                0x000000004007a84c       0x2a /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a84c                rtc_clk_fast_freq_set
- *fill*         0x000000004007a876        0x2 
+                0x000000004007a574       0x2a /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a574                rtc_clk_fast_freq_set
+ *fill*         0x000000004007a59e        0x2 
  .text.rtc_clk_fast_freq_get
-                0x000000004007a878       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a878                rtc_clk_fast_freq_get
+                0x000000004007a5a0       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a5a0                rtc_clk_fast_freq_get
  .text.rtc_clk_bbpll_set
-                0x000000004007a888      0x170 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a5b0      0x170 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x178 (size before relaxing)
-                0x000000004007a888                rtc_clk_bbpll_set
+                0x000000004007a5b0                rtc_clk_bbpll_set
  .text.rtc_clk_xtal_freq_get
-                0x000000004007a9f8       0x38 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a720       0x38 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x3c (size before relaxing)
-                0x000000004007a9f8                rtc_get_xtal
-                0x000000004007a9f8                rtc_clk_xtal_freq_get
+                0x000000004007a720                rtc_get_xtal
+                0x000000004007a720                rtc_clk_xtal_freq_get
  .text.rtc_clk_cpu_freq_get
-                0x000000004007aa30       0x88 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a758       0x88 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x94 (size before relaxing)
-                0x000000004007aa30                rtc_clk_cpu_freq_get
+                0x000000004007a758                rtc_clk_cpu_freq_get
  .text.rtc_clk_cpu_freq_value
-                0x000000004007aab8       0x45 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007aab8                rtc_clk_cpu_freq_value
- *fill*         0x000000004007aafd        0x3 
+                0x000000004007a7e0       0x45 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a7e0                rtc_clk_cpu_freq_value
+ *fill*         0x000000004007a825        0x3 
  .text.rtc_clk_xtal_freq_update
-                0x000000004007ab00       0x12 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a828       0x12 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x16 (size before relaxing)
-                0x000000004007ab00                rtc_clk_xtal_freq_update
- *fill*         0x000000004007ab12        0x2 
+                0x000000004007a828                rtc_clk_xtal_freq_update
+ *fill*         0x000000004007a83a        0x2 
  .text.rtc_clk_apb_freq_update
-                0x000000004007ab14       0x13 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a83c       0x13 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x16 (size before relaxing)
-                0x000000004007ab14                rtc_clk_apb_freq_update
- *fill*         0x000000004007ab27        0x1 
+                0x000000004007a83c                rtc_clk_apb_freq_update
+ *fill*         0x000000004007a84f        0x1 
  .text.rtc_clk_cpu_freq_set
-                0x000000004007ab28      0x1c4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a850      0x1c4 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x1d8 (size before relaxing)
-                0x000000004007ab28                rtc_clk_cpu_freq_set
+                0x000000004007a850                rtc_clk_cpu_freq_set
  .text.rtc_clk_apb_freq_get
-                0x000000004007acec       0x2a /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007acec                rtc_clk_apb_freq_get
- *fill*         0x000000004007ad16        0x2 
+                0x000000004007aa14       0x2a /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007aa14                rtc_clk_apb_freq_get
+ *fill*         0x000000004007aa3e        0x2 
  .text.rtc_clk_init
-                0x000000004007ad18      0x182 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007aa40      0x182 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x1ba (size before relaxing)
-                0x000000004007ad18                rtc_clk_init
- *fill*         0x000000004007ae9a        0x2 
+                0x000000004007aa40                rtc_clk_init
+ *fill*         0x000000004007abc2        0x2 
  .text.rtc_clk_cal_internal
-                0x000000004007ae9c      0x161 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- *fill*         0x000000004007affd        0x3 
+                0x000000004007abc4      0x161 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ *fill*         0x000000004007ad25        0x3 
  .text.rtc_clk_cal_ratio
-                0x000000004007b000       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x000000004007ad28       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0x24 (size before relaxing)
-                0x000000004007b000                rtc_clk_cal_ratio
+                0x000000004007ad28                rtc_clk_cal_ratio
  .text.rtc_clk_wait_for_slow_cycle
-                0x000000004007b020       0x79 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
-                0x000000004007b020                rtc_clk_wait_for_slow_cycle
- *fill*         0x000000004007b099        0x3 
- .text          0x000000004007b09c       0x26 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
-                0x000000004007b09c                __bswapsi2
- *fill*         0x000000004007b0c2        0x2 
+                0x000000004007ad48       0x79 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x000000004007ad48                rtc_clk_wait_for_slow_cycle
+ *fill*         0x000000004007adc1        0x3 
+ .text          0x000000004007adc4       0x26 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+                0x000000004007adc4                __bswapsi2
+ *fill*         0x000000004007adea        0x2 
  .text.index_to_partition
-                0x000000004007b0c4       0x48 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
- *fill*         0x000000004007b10c        0x0 
+                0x000000004007adec       0x48 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
+ *fill*         0x000000004007ae34        0x0 
  .text.clk_val_is_valid
-                0x000000004007b10c       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007ae34       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.reg_val_to_clk_val
-                0x000000004007b12c        0x8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007ae54        0x8 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.clk_val_to_reg_val
-                0x000000004007b134        0xe /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x0 
- *fill*         0x000000004007b142        0x2 
- .text          0x000000004007b144      0x281 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
-                0x000000004007b144                __udivdi3
+                0x000000004007ae5c        0xe /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x0 
+ *fill*         0x000000004007ae6a        0x2 
+ .text          0x000000004007ae6c      0x281 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+                0x000000004007ae6c                __udivdi3
  *(.iram1 .iram1.*)
- *fill*         0x000000004007b3c5        0x3 
- .iram1         0x000000004007b3c8      0x1df /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- *fill*         0x000000004007b5a7        0x0 
+ *fill*         0x000000004007b0ed        0x3 
+ .iram1         0x000000004007b0f0      0x1df /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ *fill*         0x000000004007b2cf        0x0 
  *(.fini.literal)
  *(.fini)
  *(.gnu.version)
-                0x000000004007b5a7                _text_end = ABSOLUTE (.)
-                0x000000004007b5a7                _etext = .
+                0x000000004007b2cf                _text_end = ABSOLUTE (.)
+                0x000000004007b2cf                _etext = .
                 [!provide]                        PROVIDE (abort, 0x4000bba4)
                 [!provide]                        PROVIDE (__absvdi2, 0x4006387c)
                 [!provide]                        PROVIDE (__absvsi2, 0x40063868)
@@ -2802,191 +2804,192 @@ END GROUP
                 [!provide]                        PROVIDE (I2S1, 0x3ff6d000)
                 [!provide]                        PROVIDE (UART2, 0x3ff6e000)
                 0x0000000040008550                PROVIDE (ets_update_cpu_frequency, 0x40008550)
-OUTPUT(/home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader.elf elf32-xtensa-le)
+OUTPUT(/home/albert/Testing/CompoTestApp/build/bootloader/bootloader.elf elf32-xtensa-le)
 
 .debug_frame    0x0000000000000000      0xb78
- .debug_frame   0x0000000000000000      0x208 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_frame   0x0000000000000208       0xd0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_frame   0x00000000000002d8       0x28 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_frame   0x0000000000000300       0x28 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_frame   0x0000000000000328       0xe8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_frame   0x0000000000000410       0x58 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_frame   0x0000000000000468       0x58 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_frame   0x00000000000004c0       0x70 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
- .debug_frame   0x0000000000000530      0x208 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_frame   0x0000000000000738       0x58 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_frame   0x0000000000000790      0x2e0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_frame   0x0000000000000a70       0xb8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_frame   0x0000000000000000      0x208 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_frame   0x0000000000000208       0xd0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_frame   0x00000000000002d8       0x28 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_frame   0x0000000000000300       0x28 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_frame   0x0000000000000328       0xe8 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_frame   0x0000000000000410       0x58 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_frame   0x0000000000000468       0x58 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_frame   0x00000000000004c0       0x70 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+ .debug_frame   0x0000000000000530      0x208 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_frame   0x0000000000000738       0x58 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_frame   0x0000000000000790      0x2e0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_frame   0x0000000000000a70       0xb8 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_frame   0x0000000000000b28       0x28 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_frame   0x0000000000000b50       0x28 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_info     0x0000000000000000     0x8808
- .debug_info    0x0000000000000000     0x282e /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_info    0x000000000000282e      0xbfa /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_info    0x0000000000003428      0x264 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_info    0x000000000000368c      0x376 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_info    0x0000000000003a02     0x11de /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_info    0x0000000000004be0      0x44d /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_info    0x000000000000502d      0x258 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_info    0x0000000000005285      0x900 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
- .debug_info    0x0000000000005b85      0xaf5 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_info    0x000000000000667a      0x3d8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_info    0x0000000000006a52     0x1386 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_info    0x0000000000007dd8      0x39b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_info    0x0000000000008173       0xcd /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_info    0x0000000000008240      0x5c8 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+.debug_info     0x0000000000000000     0x857c
+ .debug_info    0x0000000000000000     0x2609 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_info    0x0000000000002609      0xbfa /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x0000000000003203      0x269 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_info    0x000000000000346c      0x376 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x00000000000037e2     0x1172 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x0000000000004954      0x44d /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_info    0x0000000000004da1      0x258 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_info    0x0000000000004ff9      0x900 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+ .debug_info    0x00000000000058f9      0xaf5 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_info    0x00000000000063ee      0x3d8 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_info    0x00000000000067c6     0x1386 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_info    0x0000000000007b4c      0x39b /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_info    0x0000000000007ee7       0xcd /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_info    0x0000000000007fb4      0x5c8 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_abbrev   0x0000000000000000     0x1b04
- .debug_abbrev  0x0000000000000000      0x4db /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_abbrev  0x00000000000004db      0x22f /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_abbrev  0x000000000000070a      0x108 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_abbrev  0x0000000000000812      0x16c /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_abbrev  0x000000000000097e      0x2a4 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_abbrev  0x0000000000000c22      0x17d /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_abbrev  0x0000000000000d9f      0x126 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_abbrev  0x0000000000000ec5      0x1f3 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
- .debug_abbrev  0x00000000000010b8      0x22e /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_abbrev  0x00000000000012e6      0x15d /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_abbrev  0x0000000000001443      0x388 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_abbrev  0x00000000000017cb      0x17a /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_abbrev  0x0000000000001945       0x60 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_abbrev  0x00000000000019a5      0x15f /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+.debug_abbrev   0x0000000000000000     0x1b11
+ .debug_abbrev  0x0000000000000000      0x4db /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_abbrev  0x00000000000004db      0x22f /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_abbrev  0x000000000000070a      0x108 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_abbrev  0x0000000000000812      0x16c /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_abbrev  0x000000000000097e      0x2b1 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_abbrev  0x0000000000000c2f      0x17d /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_abbrev  0x0000000000000dac      0x126 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_abbrev  0x0000000000000ed2      0x1f3 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+ .debug_abbrev  0x00000000000010c5      0x22e /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_abbrev  0x00000000000012f3      0x15d /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_abbrev  0x0000000000001450      0x388 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_abbrev  0x00000000000017d8      0x17a /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_abbrev  0x0000000000001952       0x60 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_abbrev  0x00000000000019b2      0x15f /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_loc      0x0000000000000000     0x4b96
- .debug_loc     0x0000000000000000     0x1055 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_loc     0x0000000000001055      0x638 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_loc     0x000000000000168d      0x116 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_loc     0x00000000000017a3      0xae1 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_loc     0x0000000000002284      0x135 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_loc     0x00000000000023b9       0x91 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_loc     0x000000000000244a      0x4ad /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
- .debug_loc     0x00000000000028f7      0xa20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_loc     0x0000000000003317      0x2d2 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_loc     0x00000000000035e9      0x9da /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_loc     0x0000000000003fc3      0x1ca /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_loc     0x000000000000418d       0x21 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_loc     0x00000000000041ae      0x9e8 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+.debug_loc      0x0000000000000000     0x4ad3
+ .debug_loc     0x0000000000000000      0xf68 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_loc     0x0000000000000f68      0x638 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_loc     0x00000000000015a0       0x3d /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_loc     0x00000000000015dd      0x116 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x00000000000016f3      0xace /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x00000000000021c1      0x135 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_loc     0x00000000000022f6       0x91 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_loc     0x0000000000002387      0x4ad /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+ .debug_loc     0x0000000000002834      0xa20 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_loc     0x0000000000003254      0x2d2 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_loc     0x0000000000003526      0x9da /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_loc     0x0000000000003f00      0x1ca /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_loc     0x00000000000040ca       0x21 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_loc     0x00000000000040eb      0x9e8 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_aranges  0x0000000000000000      0x4d8
  .debug_aranges
-                0x0000000000000000       0xc0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000000000000       0xc0 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_aranges
-                0x00000000000000c0       0x58 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x00000000000000c0       0x58 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .debug_aranges
-                0x0000000000000118       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                0x0000000000000118       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .debug_aranges
-                0x0000000000000138       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000000000138       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .debug_aranges
-                0x0000000000000158       0x60 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000000000158       0x60 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .debug_aranges
-                0x00000000000001b8       0x30 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x00000000000001b8       0x30 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .debug_aranges
-                0x00000000000001e8       0x30 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x00000000000001e8       0x30 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .debug_aranges
-                0x0000000000000218       0x38 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000218       0x38 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
  .debug_aranges
-                0x0000000000000250       0xc0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000250       0xc0 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .debug_aranges
-                0x0000000000000310       0x30 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x0000000000000310       0x30 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
  .debug_aranges
-                0x0000000000000340      0x108 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000340      0x108 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .debug_aranges
-                0x0000000000000448       0x50 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000448       0x50 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_aranges
                 0x0000000000000498       0x20 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_aranges
                 0x00000000000004b8       0x20 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_ranges   0x0000000000000000      0x4b0
- .debug_ranges  0x0000000000000000       0xc8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_ranges  0x00000000000000c8       0x48 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_ranges  0x0000000000000110       0x10 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_ranges  0x0000000000000120       0x28 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_ranges  0x0000000000000148       0x68 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_ranges  0x00000000000001b0       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_ranges  0x00000000000001d0       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_ranges  0x00000000000001f0       0x28 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
- .debug_ranges  0x0000000000000218       0xb0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_ranges  0x00000000000002c8       0x20 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_ranges  0x00000000000002e8      0x128 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_ranges  0x0000000000000410       0x40 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_ranges  0x0000000000000450       0x60 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+.debug_ranges   0x0000000000000000      0x4c8
+ .debug_ranges  0x0000000000000000       0xe0 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_ranges  0x00000000000000e0       0x48 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_ranges  0x0000000000000128       0x10 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_ranges  0x0000000000000138       0x28 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_ranges  0x0000000000000160       0x68 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_ranges  0x00000000000001c8       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_ranges  0x00000000000001e8       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_ranges  0x0000000000000208       0x28 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+ .debug_ranges  0x0000000000000230       0xb0 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_ranges  0x00000000000002e0       0x20 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_ranges  0x0000000000000300      0x128 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_ranges  0x0000000000000428       0x40 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_ranges  0x0000000000000468       0x60 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_line     0x0000000000000000     0x5230
- .debug_line    0x0000000000000000      0xf3e /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_line    0x0000000000000f3e      0x5b8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_line    0x00000000000014f6      0x20b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_line    0x0000000000001701      0x304 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_line    0x0000000000001a05      0xa53 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_line    0x0000000000002458      0x401 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_line    0x0000000000002859      0x3c3 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_line    0x0000000000002c1c      0x512 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
- .debug_line    0x000000000000312e      0xaf8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_line    0x0000000000003c26      0x3e8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_line    0x000000000000400e      0xc6e /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_line    0x0000000000004c7c      0x39d /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_line    0x0000000000005019       0x89 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_line    0x00000000000050a2      0x18e /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+.debug_line     0x0000000000000000     0x5054
+ .debug_line    0x0000000000000000      0xda6 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_line    0x0000000000000da6      0x5b0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x0000000000001356      0x217 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_line    0x000000000000156d      0x2fc /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x0000000000001869      0xa13 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x000000000000227c      0x3fb /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_line    0x0000000000002677      0x3bf /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_line    0x0000000000002a36      0x50a /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+ .debug_line    0x0000000000002f40      0xaf4 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_line    0x0000000000003a34      0x3e4 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_line    0x0000000000003e18      0xc66 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_line    0x0000000000004a7e      0x3bf /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_line    0x0000000000004e3d       0x89 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_line    0x0000000000004ec6      0x18e /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_str      0x0000000000000000     0x26e0
- .debug_str     0x0000000000000000      0xe00 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0xee5 (size before relaxing)
- .debug_str     0x0000000000000e00      0x28e /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                        0x597 (size before relaxing)
- .debug_str     0x000000000000108e      0x239 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
-                                        0x376 (size before relaxing)
- .debug_str     0x00000000000012c7       0x69 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                                        0x398 (size before relaxing)
- .debug_str     0x0000000000001330      0x2fa /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                        0x9ea (size before relaxing)
- .debug_str     0x000000000000162a       0xfb /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
-                                        0x2be (size before relaxing)
- .debug_str     0x0000000000001725       0x76 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                                        0x24a (size before relaxing)
- .debug_str     0x000000000000179b      0x1c7 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
-                                        0x36b (size before relaxing)
- .debug_str     0x0000000000001962      0x489 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                                        0x755 (size before relaxing)
- .debug_str     0x0000000000001deb       0xbb /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
-                                        0x235 (size before relaxing)
- .debug_str     0x0000000000001ea6      0x4f8 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                        0x8f7 (size before relaxing)
- .debug_str     0x000000000000239e      0x12e /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
-                                        0x370 (size before relaxing)
- .debug_str     0x00000000000024cc      0x138 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+.debug_str      0x0000000000000000     0x2660
+ .debug_str     0x0000000000000000      0xde4 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                                        0xec9 (size before relaxing)
+ .debug_str     0x0000000000000de4      0x272 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                        0x57b (size before relaxing)
+ .debug_str     0x0000000000001056      0x237 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                                        0x374 (size before relaxing)
+ .debug_str     0x000000000000128d       0x67 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                        0x37c (size before relaxing)
+ .debug_str     0x00000000000012f4      0x2f8 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                        0x9ce (size before relaxing)
+ .debug_str     0x00000000000015ec       0xf9 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                                        0x2bc (size before relaxing)
+ .debug_str     0x00000000000016e5       0x74 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                                        0x22e (size before relaxing)
+ .debug_str     0x0000000000001759      0x1ab /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+                                        0x34f (size before relaxing)
+ .debug_str     0x0000000000001904      0x487 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                        0x753 (size before relaxing)
+ .debug_str     0x0000000000001d8b       0xb9 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                                        0x233 (size before relaxing)
+ .debug_str     0x0000000000001e44      0x4dc /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                        0x8db (size before relaxing)
+ .debug_str     0x0000000000002320      0x12c /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                                        0x36e (size before relaxing)
+ .debug_str     0x000000000000244c      0x138 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
                                         0x1de (size before relaxing)
- .debug_str     0x0000000000002604       0xdc /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_str     0x0000000000002584       0xdc /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
                                         0x258 (size before relaxing)
 
 .comment        0x0000000000000000       0x3a
- .comment       0x0000000000000000       0x3a /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .comment       0x0000000000000000       0x3a /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x3b (size before relaxing)
- .comment       0x000000000000003a       0x3b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .comment       0x000000000000003a       0x3b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .comment       0x000000000000003a       0x3b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .comment       0x000000000000003a       0x3b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .comment       0x000000000000003a       0x3b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .comment       0x000000000000003a       0x3b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .comment       0x000000000000003a       0x3b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
- .comment       0x000000000000003a       0x3b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .comment       0x000000000000003a       0x3b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .comment       0x000000000000003a       0x3b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .comment       0x000000000000003a       0x3b /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .comment       0x000000000000003a       0x3b /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .comment       0x000000000000003a       0x3b /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .comment       0x000000000000003a       0x3b /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .comment       0x000000000000003a       0x3b /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .comment       0x000000000000003a       0x3b /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .comment       0x000000000000003a       0x3b /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .comment       0x000000000000003a       0x3b /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+ .comment       0x000000000000003a       0x3b /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .comment       0x000000000000003a       0x3b /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .comment       0x000000000000003a       0x3b /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .comment       0x000000000000003a       0x3b /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .comment       0x000000000000003a       0x3b /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .comment       0x000000000000003a       0x3b /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .xtensa.info    0x0000000000000000       0x38
- .xtensa.info   0x0000000000000000       0x38 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .xtensa.info   0x0000000000000038        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xtensa.info   0x0000000000000038        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .xtensa.info   0x0000000000000038        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xtensa.info   0x0000000000000038        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xtensa.info   0x0000000000000038        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .xtensa.info   0x0000000000000038        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .xtensa.info   0x0000000000000038        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/log/liblog.a(log.o)
- .xtensa.info   0x0000000000000038        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .xtensa.info   0x0000000000000038        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .xtensa.info   0x0000000000000038        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .xtensa.info   0x0000000000000038        0x0 /home/albert/ESP32_101/101DevEsp32/101Workspace/BuzzTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xtensa.info   0x0000000000000000       0x38 /home/albert/Testing/CompoTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/log/liblog.a(log.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/albert/Testing/CompoTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .xtensa.info   0x0000000000000038        0x0 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .xtensa.info   0x0000000000000038        0x0 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
