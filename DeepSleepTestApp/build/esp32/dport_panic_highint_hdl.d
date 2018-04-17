@@ -15,7 +15,7 @@ dport_panic_highint_hdl.o: \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_panic.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/soc.h
@@ -50,7 +50,7 @@ dport_panic_highint_hdl.o: \
 
 /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_panic.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/soc.h:
 

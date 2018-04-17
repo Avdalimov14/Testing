@@ -1,7 +1,7 @@
 bluedroid/stack/avrc/avrc_api.o: \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/avrc/avrc_api.c \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_trace.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdio.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/_ansi.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/newlib.h \
@@ -52,7 +52,7 @@ bluedroid/stack/avrc/avrc_api.o: \
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_trace.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/stdio.h:
 

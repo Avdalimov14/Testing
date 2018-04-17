@@ -17,7 +17,7 @@ dport_access.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/lock.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/string.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_attr.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_err.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdio.h \
@@ -128,7 +128,7 @@ dport_access.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/string.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_attr.h:
 

@@ -1,5 +1,5 @@
 int_wdt.o: /home/albert/ESP32_101/esp-idf/components/esp32/./int_wdt.c \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/features.h \
@@ -87,7 +87,7 @@ int_wdt.o: /home/albert/ESP32_101/esp-idf/components/esp32/./int_wdt.c \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_dport_access.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_int_wdt.h
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h:
 

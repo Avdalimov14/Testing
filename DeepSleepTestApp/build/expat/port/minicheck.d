@@ -24,7 +24,7 @@ port/minicheck.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/setjmp.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/setjmp.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h \
  /home/albert/ESP32_101/esp-idf/components/expat/include/expat/internal.h \
  /home/albert/ESP32_101/esp-idf/components/expat/port/include/minicheck.h
@@ -77,7 +77,7 @@ port/minicheck.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h:
 

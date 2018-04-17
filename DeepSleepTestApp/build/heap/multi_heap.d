@@ -19,7 +19,7 @@ multi_heap.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/alloca.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/string.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/string.h \
@@ -122,7 +122,7 @@ multi_heap.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h:
 

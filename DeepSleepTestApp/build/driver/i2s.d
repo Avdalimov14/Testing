@@ -20,7 +20,7 @@ i2s.o: /home/albert/ESP32_101/esp-idf/components/driver/./i2s.c \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -144,7 +144,7 @@ i2s.o: /home/albert/ESP32_101/esp-idf/components/driver/./i2s.c \
 
 /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

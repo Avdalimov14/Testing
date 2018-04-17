@@ -20,7 +20,7 @@ mcpwm.o: /home/albert/ESP32_101/esp-idf/components/driver/./mcpwm.c \
  /home/albert/ESP32_101/esp-idf/components/log/include/esp_log.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_assert.h \
@@ -131,7 +131,7 @@ mcpwm.o: /home/albert/ESP32_101/esp-idf/components/driver/./mcpwm.c \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/esp32/include/rom/ets_sys.h:
 

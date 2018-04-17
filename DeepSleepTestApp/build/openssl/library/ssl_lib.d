@@ -12,7 +12,7 @@ library/ssl_lib.o: \
  /home/albert/ESP32_101/esp-idf/components/openssl/include/internal/ssl_cert.h \
  /home/albert/ESP32_101/esp-idf/components/openssl/include/internal/ssl_dbg.h \
  /home/albert/ESP32_101/esp-idf/components/openssl/include/platform/ssl_opt.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/openssl/include/platform/ssl_port.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_types.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/cdefs.h \
@@ -70,7 +70,7 @@ library/ssl_lib.o: \
 
 /home/albert/ESP32_101/esp-idf/components/openssl/include/platform/ssl_opt.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/openssl/include/platform/ssl_port.h:
 

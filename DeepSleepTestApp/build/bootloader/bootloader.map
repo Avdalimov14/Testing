@@ -60,7 +60,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .bss           0x0000000000000000        0x0 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .xt.lit        0x0000000000000000        0x8 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .xt.prop       0x0000000000000000       0x60 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .xt.prop       0x0000000000000000       0x48 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .text          0x0000000000000000        0x0 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .data          0x0000000000000000        0x0 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .bss           0x0000000000000000        0x0 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
@@ -325,7 +325,7 @@ END GROUP
  .rodata.str1.4
                 0x000000003fff0038      0x582 /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
  *fill*         0x000000003fff05ba        0x2 
- .rodata.__func__$3802
+ .rodata.__func__$3798
                 0x000000003fff05bc       0x10 /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
  .rodata.str1.4
                 0x000000003fff05cc      0x28e /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
@@ -395,7 +395,7 @@ END GROUP
                 0x000000003fff119c                . = ALIGN (0x4)
                 0x000000003fff119c                _heap_start = ABSOLUTE (.)
 
-.iram.text      0x0000000040078000     0x32cf
+.iram.text      0x0000000040078000     0x32c7
                 0x0000000040078000                _stext = .
                 0x0000000040078000                _text_start = ABSOLUTE (.)
  *(.literal .text .literal.* .text.* .stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
@@ -709,276 +709,276 @@ END GROUP
                 0x0000000040079024                bootloader_flash_read
  *fill*         0x00000000400790aa        0x2 
  .text.bootloader_clock_configure
-                0x00000000400790ac       0x76 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
-                                         0x82 (size before relaxing)
+                0x00000000400790ac       0x6e /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                                         0x76 (size before relaxing)
                 0x00000000400790ac                bootloader_clock_configure
- *fill*         0x0000000040079122        0x2 
+ *fill*         0x000000004007911a        0x2 
  .text.esp_partition_table_basic_verify
-                0x0000000040079124       0xb1 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x000000004007911c       0xb1 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
                                          0xb5 (size before relaxing)
-                0x0000000040079124                esp_partition_table_basic_verify
- *fill*         0x00000000400791d5        0x3 
+                0x000000004007911c                esp_partition_table_basic_verify
+ *fill*         0x00000000400791cd        0x3 
  .text.should_map
-                0x00000000400791d8       0x30 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400791d0       0x30 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .text.verify_image_header
-                0x0000000040079208       0x7e /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x0000000040079286        0x2 
+                0x0000000040079200       0x7e /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ *fill*         0x000000004007927e        0x2 
  .text.verify_segment_header
-                0x0000000040079288       0x71 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079280       0x71 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x79 (size before relaxing)
- *fill*         0x00000000400792f9        0x3 
+ *fill*         0x00000000400792f1        0x3 
  .text.verify_checksum
-                0x00000000400792fc       0x87 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400792f4       0x87 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x8f (size before relaxing)
- *fill*         0x0000000040079383        0x1 
+ *fill*         0x000000004007937b        0x1 
  .text.verify_simple_hash
-                0x0000000040079384       0x5b /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000004007937c       0x5b /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x6a (size before relaxing)
- *fill*         0x00000000400793df        0x1 
+ *fill*         0x00000000400793d7        0x1 
  .text.should_load
-                0x00000000400793e0       0x44 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400793d8       0x44 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x48 (size before relaxing)
  .text.process_segment
-                0x0000000040079424      0x181 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000004007941c      0x181 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x195 (size before relaxing)
- *fill*         0x00000000400795a5        0x3 
+ *fill*         0x000000004007959d        0x3 
  .text.esp_image_load
-                0x00000000400795a8      0x245 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400795a0      0x245 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x261 (size before relaxing)
-                0x00000000400795a8                esp_image_load
- *fill*         0x00000000400797ed        0x3 
+                0x00000000400795a0                esp_image_load
+ *fill*         0x00000000400797e5        0x3 
  .text.bootloader_sha256_start
-                0x00000000400797f0       0x12 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
-                0x00000000400797f0                bootloader_sha256_start
- *fill*         0x0000000040079802        0x2 
+                0x00000000400797e8       0x12 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x00000000400797e8                bootloader_sha256_start
+ *fill*         0x00000000400797fa        0x2 
  .text.bootloader_sha256_data
-                0x0000000040079804       0xa1 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x00000000400797fc       0xa1 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0xa9 (size before relaxing)
-                0x0000000040079804                bootloader_sha256_data
- *fill*         0x00000000400798a5        0x3 
+                0x00000000400797fc                bootloader_sha256_data
+ *fill*         0x000000004007989d        0x3 
  .text.bootloader_sha256_finish
-                0x00000000400798a8       0xdc /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x00000000400798a0       0xdc /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                          0xf0 (size before relaxing)
-                0x00000000400798a8                bootloader_sha256_finish
+                0x00000000400798a0                bootloader_sha256_finish
  .text.bootloader_fill_random
-                0x0000000040079984       0x59 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                0x0000000040079984                bootloader_fill_random
- *fill*         0x00000000400799dd        0x3 
+                0x000000004007997c       0x59 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x000000004007997c                bootloader_fill_random
+ *fill*         0x00000000400799d5        0x3 
  .text.bootloader_random_enable
-                0x00000000400799e0      0x1d5 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                0x00000000400799e0                bootloader_random_enable
- *fill*         0x0000000040079bb5        0x3 
+                0x00000000400799d8      0x1d5 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x00000000400799d8                bootloader_random_enable
+ *fill*         0x0000000040079bad        0x3 
  .text.bootloader_random_disable
-                0x0000000040079bb8      0x11c /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                0x0000000040079bb8                bootloader_random_disable
+                0x0000000040079bb0      0x11c /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000040079bb0                bootloader_random_disable
  .text.esp_log_early_timestamp
-                0x0000000040079cd4       0x1f /home/albert/Testing/DeepSleepTestApp/build/bootloader/log/liblog.a(log.o)
-                0x0000000040079cd4                esp_log_timestamp
-                0x0000000040079cd4                esp_log_early_timestamp
- *fill*         0x0000000040079cf3        0x1 
+                0x0000000040079ccc       0x1f /home/albert/Testing/DeepSleepTestApp/build/bootloader/log/liblog.a(log.o)
+                0x0000000040079ccc                esp_log_timestamp
+                0x0000000040079ccc                esp_log_early_timestamp
+ *fill*         0x0000000040079ceb        0x1 
  .text.esp_rom_spiflash_read_status
-                0x0000000040079cf4       0x61 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x0000000040079cf4                esp_rom_spiflash_read_status
- *fill*         0x0000000040079d55        0x3 
+                0x0000000040079cec       0x61 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079cec                esp_rom_spiflash_read_status
+ *fill*         0x0000000040079d4d        0x3 
  .text.esp_rom_spiflash_wait_idle
-                0x0000000040079d58       0x32 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x0000000040079d58                esp_rom_spiflash_wait_idle
- *fill*         0x0000000040079d8a        0x2 
+                0x0000000040079d50       0x32 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079d50                esp_rom_spiflash_wait_idle
+ *fill*         0x0000000040079d82        0x2 
  .text.esp_rom_spiflash_read_data
-                0x0000000040079d8c       0xe2 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- *fill*         0x0000000040079e6e        0x2 
+                0x0000000040079d84       0xe2 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ *fill*         0x0000000040079e66        0x2 
  .text.esp_rom_spiflash_read_statushigh
-                0x0000000040079e70       0x21 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x0000000040079e70                esp_rom_spiflash_read_statushigh
- *fill*         0x0000000040079e91        0x3 
+                0x0000000040079e68       0x21 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079e68                esp_rom_spiflash_read_statushigh
+ *fill*         0x0000000040079e89        0x3 
  .text.esp_rom_spiflash_write_status
-                0x0000000040079e94       0x34 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079e8c       0x34 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x38 (size before relaxing)
-                0x0000000040079e94                esp_rom_spiflash_write_status
+                0x0000000040079e8c                esp_rom_spiflash_write_status
  .text.esp_rom_spiflash_unlock
-                0x0000000040079ec8       0x6a /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079ec0       0x6a /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x7e (size before relaxing)
-                0x0000000040079ec8                esp_rom_spiflash_unlock
- *fill*         0x0000000040079f32        0x2 
+                0x0000000040079ec0                esp_rom_spiflash_unlock
+ *fill*         0x0000000040079f2a        0x2 
  .text.esp_rom_spiflash_read
-                0x0000000040079f34      0x284 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                0x0000000040079f34                esp_rom_spiflash_read
+                0x0000000040079f2c      0x284 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079f2c                esp_rom_spiflash_read
  .text.rtc_vddsdio_get_config
-                0x000000004007a1b8      0x10a /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
-                0x000000004007a1b8                rtc_vddsdio_get_config
- *fill*         0x000000004007a2c2        0x2 
+                0x000000004007a1b0      0x10a /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x000000004007a1b0                rtc_vddsdio_get_config
+ *fill*         0x000000004007a2ba        0x2 
  .text.rtc_vddsdio_set_config
-                0x000000004007a2c4       0x46 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
-                0x000000004007a2c4                rtc_vddsdio_set_config
- *fill*         0x000000004007a30a        0x2 
+                0x000000004007a2bc       0x46 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x000000004007a2bc                rtc_vddsdio_set_config
+ *fill*         0x000000004007a302        0x2 
  .text.rtc_clk_32k_enable_internal
-                0x000000004007a30c       0x81 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x000000004007a38d        0x3 
+                0x000000004007a304       0x81 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x000000004007a385        0x3 
  .text.rtc_clk_32k_enable
-                0x000000004007a390       0x2d /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a390                rtc_clk_32k_enable
- *fill*         0x000000004007a3bd        0x3 
+                0x000000004007a388       0x2d /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a388                rtc_clk_32k_enable
+ *fill*         0x000000004007a3b5        0x3 
  .text.rtc_clk_8m_enable
-                0x000000004007a3c0       0x99 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a3c0                rtc_clk_8m_enable
- *fill*         0x000000004007a459        0x3 
+                0x000000004007a3b8       0x99 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a3b8                rtc_clk_8m_enable
+ *fill*         0x000000004007a451        0x3 
  .text.rtc_clk_8m_enabled
-                0x000000004007a45c       0x19 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a45c                rtc_clk_8m_enabled
- *fill*         0x000000004007a475        0x3 
+                0x000000004007a454       0x19 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a454                rtc_clk_8m_enabled
+ *fill*         0x000000004007a46d        0x3 
  .text.rtc_clk_8md256_enabled
-                0x000000004007a478       0x1a /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a478                rtc_clk_8md256_enabled
- *fill*         0x000000004007a492        0x2 
+                0x000000004007a470       0x1a /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a470                rtc_clk_8md256_enabled
+ *fill*         0x000000004007a48a        0x2 
  .text.rtc_clk_xtal_freq_estimate
-                0x000000004007a494       0xa6 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a48c       0xa6 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0xb2 (size before relaxing)
- *fill*         0x000000004007a53a        0x2 
+ *fill*         0x000000004007a532        0x2 
  .text.rtc_clk_slow_freq_set
-                0x000000004007a53c       0x27 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a53c                rtc_clk_slow_freq_set
- *fill*         0x000000004007a563        0x1 
+                0x000000004007a534       0x27 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a534                rtc_clk_slow_freq_set
+ *fill*         0x000000004007a55b        0x1 
  .text.rtc_clk_slow_freq_get
-                0x000000004007a564       0x10 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a564                rtc_clk_slow_freq_get
+                0x000000004007a55c       0x10 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a55c                rtc_clk_slow_freq_get
  .text.rtc_clk_fast_freq_set
-                0x000000004007a574       0x2a /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a574                rtc_clk_fast_freq_set
- *fill*         0x000000004007a59e        0x2 
+                0x000000004007a56c       0x2a /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a56c                rtc_clk_fast_freq_set
+ *fill*         0x000000004007a596        0x2 
  .text.rtc_clk_fast_freq_get
-                0x000000004007a5a0       0x10 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a5a0                rtc_clk_fast_freq_get
+                0x000000004007a598       0x10 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a598                rtc_clk_fast_freq_get
  .text.rtc_clk_bbpll_set
-                0x000000004007a5b0      0x170 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a5a8      0x170 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x178 (size before relaxing)
-                0x000000004007a5b0                rtc_clk_bbpll_set
+                0x000000004007a5a8                rtc_clk_bbpll_set
  .text.rtc_clk_xtal_freq_get
-                0x000000004007a720       0x38 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a718       0x38 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x3c (size before relaxing)
-                0x000000004007a720                rtc_get_xtal
-                0x000000004007a720                rtc_clk_xtal_freq_get
+                0x000000004007a718                rtc_get_xtal
+                0x000000004007a718                rtc_clk_xtal_freq_get
  .text.rtc_clk_cpu_freq_get
-                0x000000004007a758       0x88 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a750       0x88 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x94 (size before relaxing)
-                0x000000004007a758                rtc_clk_cpu_freq_get
+                0x000000004007a750                rtc_clk_cpu_freq_get
  .text.rtc_clk_cpu_freq_value
-                0x000000004007a7e0       0x45 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007a7e0                rtc_clk_cpu_freq_value
- *fill*         0x000000004007a825        0x3 
+                0x000000004007a7d8       0x45 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a7d8                rtc_clk_cpu_freq_value
+ *fill*         0x000000004007a81d        0x3 
  .text.rtc_clk_xtal_freq_update
-                0x000000004007a828       0x12 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a820       0x12 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x16 (size before relaxing)
-                0x000000004007a828                rtc_clk_xtal_freq_update
- *fill*         0x000000004007a83a        0x2 
+                0x000000004007a820                rtc_clk_xtal_freq_update
+ *fill*         0x000000004007a832        0x2 
  .text.rtc_clk_apb_freq_update
-                0x000000004007a83c       0x13 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a834       0x13 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x16 (size before relaxing)
-                0x000000004007a83c                rtc_clk_apb_freq_update
- *fill*         0x000000004007a84f        0x1 
+                0x000000004007a834                rtc_clk_apb_freq_update
+ *fill*         0x000000004007a847        0x1 
  .text.rtc_clk_cpu_freq_set
-                0x000000004007a850      0x1c4 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a848      0x1c4 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x1d8 (size before relaxing)
-                0x000000004007a850                rtc_clk_cpu_freq_set
+                0x000000004007a848                rtc_clk_cpu_freq_set
  .text.rtc_clk_apb_freq_get
-                0x000000004007aa14       0x2a /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004007aa14                rtc_clk_apb_freq_get
- *fill*         0x000000004007aa3e        0x2 
+                0x000000004007aa0c       0x2a /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007aa0c                rtc_clk_apb_freq_get
+ *fill*         0x000000004007aa36        0x2 
  .text.rtc_clk_init
-                0x000000004007aa40      0x182 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007aa38      0x182 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x1ba (size before relaxing)
-                0x000000004007aa40                rtc_clk_init
- *fill*         0x000000004007abc2        0x2 
+                0x000000004007aa38                rtc_clk_init
+ *fill*         0x000000004007abba        0x2 
  .text.rtc_clk_cal_internal
-                0x000000004007abc4      0x161 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- *fill*         0x000000004007ad25        0x3 
+                0x000000004007abbc      0x161 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ *fill*         0x000000004007ad1d        0x3 
  .text.rtc_clk_cal_ratio
-                0x000000004007ad28       0x20 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x000000004007ad20       0x20 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0x24 (size before relaxing)
-                0x000000004007ad28                rtc_clk_cal_ratio
+                0x000000004007ad20                rtc_clk_cal_ratio
  .text.rtc_clk_wait_for_slow_cycle
-                0x000000004007ad48       0x79 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
-                0x000000004007ad48                rtc_clk_wait_for_slow_cycle
- *fill*         0x000000004007adc1        0x3 
- .text          0x000000004007adc4       0x26 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
-                0x000000004007adc4                __bswapsi2
- *fill*         0x000000004007adea        0x2 
+                0x000000004007ad40       0x79 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x000000004007ad40                rtc_clk_wait_for_slow_cycle
+ *fill*         0x000000004007adb9        0x3 
+ .text          0x000000004007adbc       0x26 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+                0x000000004007adbc                __bswapsi2
+ *fill*         0x000000004007ade2        0x2 
  .text.index_to_partition
-                0x000000004007adec       0x48 /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
- *fill*         0x000000004007ae34        0x0 
+                0x000000004007ade4       0x48 /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
+ *fill*         0x000000004007ae2c        0x0 
  .text.clk_val_is_valid
-                0x000000004007ae34       0x20 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007ae2c       0x20 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.reg_val_to_clk_val
-                0x000000004007ae54        0x8 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007ae4c        0x8 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.clk_val_to_reg_val
-                0x000000004007ae5c        0xe /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x0 
- *fill*         0x000000004007ae6a        0x2 
- .text          0x000000004007ae6c      0x281 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
-                0x000000004007ae6c                __udivdi3
+                0x000000004007ae54        0xe /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x0 
+ *fill*         0x000000004007ae62        0x2 
+ .text          0x000000004007ae64      0x281 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+                0x000000004007ae64                __udivdi3
  *(.iram1 .iram1.*)
- *fill*         0x000000004007b0ed        0x3 
- .iram1         0x000000004007b0f0      0x1df /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- *fill*         0x000000004007b2cf        0x0 
+ *fill*         0x000000004007b0e5        0x3 
+ .iram1         0x000000004007b0e8      0x1df /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ *fill*         0x000000004007b2c7        0x0 
  *(.fini.literal)
  *(.fini)
  *(.gnu.version)
-                0x000000004007b2cf                _text_end = ABSOLUTE (.)
-                0x000000004007b2cf                _etext = .
+                0x000000004007b2c7                _text_end = ABSOLUTE (.)
+                0x000000004007b2c7                _etext = .
                 [!provide]                        PROVIDE (abort, 0x4000bba4)
                 [!provide]                        PROVIDE (__absvdi2, 0x4006387c)
                 [!provide]                        PROVIDE (__absvsi2, 0x40063868)
@@ -2822,21 +2822,21 @@ OUTPUT(/home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader.elf elf
  .debug_frame   0x0000000000000b28       0x28 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_frame   0x0000000000000b50       0x28 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_info     0x0000000000000000     0x857c
- .debug_info    0x0000000000000000     0x2609 /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_info    0x0000000000002609      0xbfa /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_info    0x0000000000003203      0x269 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_info    0x000000000000346c      0x376 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_info    0x00000000000037e2     0x1172 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_info    0x0000000000004954      0x44d /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_info    0x0000000000004da1      0x258 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_info    0x0000000000004ff9      0x900 /home/albert/Testing/DeepSleepTestApp/build/bootloader/log/liblog.a(log.o)
- .debug_info    0x00000000000058f9      0xaf5 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_info    0x00000000000063ee      0x3d8 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_info    0x00000000000067c6     0x1386 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_info    0x0000000000007b4c      0x39b /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_info    0x0000000000007ee7       0xcd /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_info    0x0000000000007fb4      0x5c8 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+.debug_info     0x0000000000000000     0x8578
+ .debug_info    0x0000000000000000     0x260a /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_info    0x000000000000260a      0xbfa /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x0000000000003204      0x264 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_info    0x0000000000003468      0x376 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x00000000000037de     0x1172 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x0000000000004950      0x44d /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_info    0x0000000000004d9d      0x258 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_info    0x0000000000004ff5      0x900 /home/albert/Testing/DeepSleepTestApp/build/bootloader/log/liblog.a(log.o)
+ .debug_info    0x00000000000058f5      0xaf5 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_info    0x00000000000063ea      0x3d8 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_info    0x00000000000067c2     0x1386 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_info    0x0000000000007b48      0x39b /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_info    0x0000000000007ee3       0xcd /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_info    0x0000000000007fb0      0x5c8 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_abbrev   0x0000000000000000     0x1b11
  .debug_abbrev  0x0000000000000000      0x4db /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
@@ -2854,21 +2854,20 @@ OUTPUT(/home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader.elf elf
  .debug_abbrev  0x0000000000001952       0x60 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_abbrev  0x00000000000019b2      0x15f /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_loc      0x0000000000000000     0x4ad3
+.debug_loc      0x0000000000000000     0x4a96
  .debug_loc     0x0000000000000000      0xf68 /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_loc     0x0000000000000f68      0x638 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_loc     0x00000000000015a0       0x3d /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_loc     0x00000000000015dd      0x116 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_loc     0x00000000000016f3      0xace /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_loc     0x00000000000021c1      0x135 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_loc     0x00000000000022f6       0x91 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_loc     0x0000000000002387      0x4ad /home/albert/Testing/DeepSleepTestApp/build/bootloader/log/liblog.a(log.o)
- .debug_loc     0x0000000000002834      0xa20 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_loc     0x0000000000003254      0x2d2 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_loc     0x0000000000003526      0x9da /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_loc     0x0000000000003f00      0x1ca /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_loc     0x00000000000040ca       0x21 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_loc     0x00000000000040eb      0x9e8 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_loc     0x00000000000015a0      0x116 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x00000000000016b6      0xace /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x0000000000002184      0x135 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_loc     0x00000000000022b9       0x91 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_loc     0x000000000000234a      0x4ad /home/albert/Testing/DeepSleepTestApp/build/bootloader/log/liblog.a(log.o)
+ .debug_loc     0x00000000000027f7      0xa20 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_loc     0x0000000000003217      0x2d2 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_loc     0x00000000000034e9      0x9da /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_loc     0x0000000000003ec3      0x1ca /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_loc     0x000000000000408d       0x21 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_loc     0x00000000000040ae      0x9e8 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_aranges  0x0000000000000000      0x4d8
  .debug_aranges
@@ -2915,50 +2914,50 @@ OUTPUT(/home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader.elf elf
  .debug_ranges  0x0000000000000428       0x40 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_ranges  0x0000000000000468       0x60 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_line     0x0000000000000000     0x50ae
- .debug_line    0x0000000000000000      0xdb4 /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_line    0x0000000000000db4      0x5b8 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_line    0x000000000000136c      0x21d /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_line    0x0000000000001589      0x304 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_line    0x000000000000188d      0xa21 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_line    0x00000000000022ae      0x401 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_line    0x00000000000026af      0x3c3 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_line    0x0000000000002a72      0x512 /home/albert/Testing/DeepSleepTestApp/build/bootloader/log/liblog.a(log.o)
- .debug_line    0x0000000000002f84      0xaf8 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_line    0x0000000000003a7c      0x3e8 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_line    0x0000000000003e64      0xc6e /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_line    0x0000000000004ad2      0x3c5 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_line    0x0000000000004e97       0x89 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_line    0x0000000000004f20      0x18e /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+.debug_line     0x0000000000000000     0x4eb0
+ .debug_line    0x0000000000000000      0xd80 /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_line    0x0000000000000d80      0x590 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x0000000000001310      0x1e3 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_line    0x00000000000014f3      0x2dc /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x00000000000017cf      0x9f9 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x00000000000021c8      0x3d9 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_line    0x00000000000025a1      0x39b /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_line    0x000000000000293c      0x4ea /home/albert/Testing/DeepSleepTestApp/build/bootloader/log/liblog.a(log.o)
+ .debug_line    0x0000000000002e26      0xad0 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_line    0x00000000000038f6      0x3c0 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_line    0x0000000000003cb6      0xc46 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_line    0x00000000000048fc      0x39d /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_line    0x0000000000004c99       0x89 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_line    0x0000000000004d22      0x18e /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_str      0x0000000000000000     0x26f4
- .debug_str     0x0000000000000000      0xe05 /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0xeea (size before relaxing)
- .debug_str     0x0000000000000e05      0x293 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                        0x59c (size before relaxing)
- .debug_str     0x0000000000001098      0x239 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+.debug_str      0x0000000000000000     0x2688
+ .debug_str     0x0000000000000000      0xdea /home/albert/Testing/DeepSleepTestApp/build/bootloader/main/libmain.a(bootloader_start.o)
+                                        0xecf (size before relaxing)
+ .debug_str     0x0000000000000dea      0x278 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                        0x581 (size before relaxing)
+ .debug_str     0x0000000000001062      0x239 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
                                         0x376 (size before relaxing)
- .debug_str     0x00000000000012d1       0x69 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                                        0x39d (size before relaxing)
- .debug_str     0x000000000000133a      0x2fa /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                        0x9ef (size before relaxing)
- .debug_str     0x0000000000001634       0xfb /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_str     0x000000000000129b       0x69 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                        0x382 (size before relaxing)
+ .debug_str     0x0000000000001304      0x2fa /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                        0x9d4 (size before relaxing)
+ .debug_str     0x00000000000015fe       0xfb /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
                                         0x2be (size before relaxing)
- .debug_str     0x000000000000172f       0x76 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                                        0x24f (size before relaxing)
- .debug_str     0x00000000000017a5      0x1cc /home/albert/Testing/DeepSleepTestApp/build/bootloader/log/liblog.a(log.o)
-                                        0x370 (size before relaxing)
- .debug_str     0x0000000000001971      0x489 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_str     0x00000000000016f9       0x76 /home/albert/Testing/DeepSleepTestApp/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                                        0x234 (size before relaxing)
+ .debug_str     0x000000000000176f      0x1b1 /home/albert/Testing/DeepSleepTestApp/build/bootloader/log/liblog.a(log.o)
+                                        0x355 (size before relaxing)
+ .debug_str     0x0000000000001920      0x489 /home/albert/Testing/DeepSleepTestApp/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                         0x755 (size before relaxing)
- .debug_str     0x0000000000001dfa       0xbb /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_str     0x0000000000001da9       0xbb /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_init.o)
                                         0x235 (size before relaxing)
- .debug_str     0x0000000000001eb5      0x4fd /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                        0x8fc (size before relaxing)
- .debug_str     0x00000000000023b2      0x12e /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_str     0x0000000000001e64      0x4e2 /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                        0x8e1 (size before relaxing)
+ .debug_str     0x0000000000002346      0x12e /home/albert/Testing/DeepSleepTestApp/build/bootloader/soc/libsoc.a(rtc_time.o)
                                         0x370 (size before relaxing)
- .debug_str     0x00000000000024e0      0x138 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_str     0x0000000000002474      0x138 /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
                                         0x1de (size before relaxing)
- .debug_str     0x0000000000002618       0xdc /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_str     0x00000000000025ac       0xdc /home/albert/ESP32_101/101DevEsp32/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
                                         0x258 (size before relaxing)
 
 .comment        0x0000000000000000       0x3a

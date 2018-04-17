@@ -27,7 +27,7 @@ bt.o: /home/albert/ESP32_101/esp-idf/components/bt/./bt.c \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h \
  /home/albert/ESP32_101/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/albert/ESP32_101/esp-idf/components/heap/include/multi_heap.h \
@@ -155,7 +155,7 @@ bt.o: /home/albert/ESP32_101/esp-idf/components/bt/./bt.c \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h:
 

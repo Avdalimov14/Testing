@@ -6,7 +6,7 @@ eth_phy/phy_tlk110.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/features.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_assert.h \
@@ -97,7 +97,7 @@ eth_phy/phy_tlk110.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/esp32/include/rom/ets_sys.h:
 

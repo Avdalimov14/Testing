@@ -27,7 +27,7 @@ event_default_handlers.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/sched.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/stdio.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_wifi.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
@@ -177,7 +177,7 @@ event_default_handlers.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h:
 

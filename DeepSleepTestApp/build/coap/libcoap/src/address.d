@@ -1,7 +1,7 @@
 libcoap/src/address.o: \
  /home/albert/ESP32_101/esp-idf/components/coap/libcoap/src/address.c \
  /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdlib.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/_ansi.h \
@@ -117,7 +117,7 @@ libcoap/src/address.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/stdlib.h:
 

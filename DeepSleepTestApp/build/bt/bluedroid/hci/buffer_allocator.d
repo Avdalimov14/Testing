@@ -22,7 +22,7 @@ bluedroid/hci/buffer_allocator.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/albert/ESP32_101/esp-idf/components/heap/include/multi_heap.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/hci/include/buffer_allocator.h:
 
@@ -68,5 +68,5 @@ bluedroid/hci/buffer_allocator.o: \
 
 /home/albert/ESP32_101/esp-idf/components/heap/include/multi_heap.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/hci/buffer_allocator.c:

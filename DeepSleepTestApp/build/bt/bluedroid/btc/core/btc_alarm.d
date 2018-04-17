@@ -6,7 +6,7 @@ bluedroid/btc/core/btc_alarm.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/features.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_target.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/dyn_mem.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_trace.h \
@@ -106,7 +106,7 @@ bluedroid/btc/core/btc_alarm.o: \
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_target.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
 

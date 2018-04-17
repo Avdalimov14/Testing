@@ -1,6 +1,6 @@
 src/secure_boot_signatures.o: \
  /home/albert/ESP32_101/esp-idf/components/bootloader_support/src/secure_boot_signatures.c \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/bootloader_support/include_priv/bootloader_flash.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -46,7 +46,7 @@ src/secure_boot_signatures.o: \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/rom/sha.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_types.h
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/bootloader_support/include_priv/bootloader_flash.h:
 

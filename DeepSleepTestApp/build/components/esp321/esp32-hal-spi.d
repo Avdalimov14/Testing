@@ -1,11 +1,11 @@
 esp321/esp32-hal-spi.o: \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-spi.c \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-spi.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-spi.c \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-spi.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/features.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdio.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/_ansi.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/newlib.h \
@@ -29,19 +29,19 @@ esp321/esp32-hal-spi.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/string.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/string.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/math.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-log.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-matrix.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-log.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-matrix.h \
  /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-uart.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-gpio.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-touch.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-dac.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-adc.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-i2c.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-ledc.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-sigmadelta.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-timer.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-uart.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-gpio.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-touch.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-dac.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-adc.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-i2c.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-ledc.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-sigmadelta.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-timer.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/xtensa_config.h \
@@ -92,7 +92,7 @@ esp321/esp32-hal-spi.o: \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/xtensa_api.h \
  /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-bt.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-bt.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/task.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/limits.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/list.h \
@@ -104,7 +104,7 @@ esp321/esp32-hal-spi.o: \
  /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_dport_access.h
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-spi.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-spi.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h:
 
@@ -114,7 +114,7 @@ esp321/esp32-hal-spi.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/stdio.h:
 
@@ -162,31 +162,31 @@ esp321/esp32-hal-spi.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/math.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-log.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-log.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-matrix.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-matrix.h:
 
 /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-uart.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-uart.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-gpio.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-gpio.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-touch.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-touch.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-dac.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-dac.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-adc.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-adc.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-i2c.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-i2c.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-ledc.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-ledc.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-sigmadelta.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-sigmadelta.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-timer.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-timer.h:
 
 /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -288,7 +288,7 @@ esp321/esp32-hal-spi.o: \
 
 /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-bt.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-bt.h:
 
 /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/task.h:
 
@@ -309,4 +309,4 @@ esp321/esp32-hal-spi.o: \
 /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/dport_access.h:
 
 /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_dport_access.h:
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/esp32-hal-spi.c:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/esp32-hal-spi.c:

@@ -26,7 +26,7 @@ esp_ota_ops.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/string.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/string.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/albert/ESP32_101/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
@@ -150,7 +150,7 @@ esp_ota_ops.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h:
 

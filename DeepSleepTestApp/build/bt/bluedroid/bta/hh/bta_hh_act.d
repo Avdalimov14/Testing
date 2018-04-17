@@ -1,7 +1,7 @@
 bluedroid/bta/hh/bta_hh_act.o: \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/bta/hh/bta_hh_act.c \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_target.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -38,7 +38,7 @@ bluedroid/bta/hh/bta_hh_act.o: \
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_target.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
 

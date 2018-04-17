@@ -24,7 +24,7 @@ bluedroid/stack/sdp/sdp_server.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/alloca.h \
  /home/albert/ESP32_101/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/albert/ESP32_101/esp-idf/components/heap/include/multi_heap.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/btu.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_target.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/dyn_mem.h \
@@ -102,7 +102,7 @@ bluedroid/stack/sdp/sdp_server.o: \
 
 /home/albert/ESP32_101/esp-idf/components/heap/include/multi_heap.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/btu.h:
 

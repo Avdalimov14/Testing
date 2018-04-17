@@ -29,7 +29,7 @@ spiffs/src/spiffs_nucleus.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/string.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/unistd.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/unistd.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/log/include/esp_log.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -97,7 +97,7 @@ spiffs/src/spiffs_nucleus.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/unistd.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/log/include/esp_log.h:
 

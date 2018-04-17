@@ -24,7 +24,7 @@ bluedroid/stack/l2cap/l2c_csm.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/sched.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/stdio.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_target.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -164,7 +164,7 @@ bluedroid/stack/l2cap/l2c_csm.o: \
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_target.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
 

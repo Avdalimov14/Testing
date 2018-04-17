@@ -25,57 +25,56 @@ ESP32ULP GAS  pulse_cnt.ulp.pS 			page 1
   22              	 .global entry
   23              	entry:
   24 0000 0901B82E 	 REG_RD ((((0x3ff48400 + 0x24)) - 0x3ff48000) / 4), ((14) + ((((((((0x3FFFF) >> (0)) & 1) + (((0x3F
-  25 0004 0105FC1F 	 REG_WR ((((0x3ff48400 + 0x4)) - 0x3ff48000) / 4), ((14 + 17) + (1) - 1), (14 + 17), ((1) & 0xff)
-  26 0008 03008072 	 move r3, io_number
-  27 000c 0F0000D0 	 ld r3, r3, 0
-  28 0010 3000C070 	 rsh r0, r0, r3
-  29 0014 10004072 	 and r0, r0, 1
-  30 0018 03008072 	 move r3, next_edge
-  31 001c 0F0000D0 	 ld r3, r3, 0
-  32 0020 33000070 	 add r3, r0, r3
-  33 0024 1F004072 	 and r3, r3, 1
-  34 0028 00004080 	 jump changed, eq
-  35 002c 03008072 	 move r3, debounce_max_count
-  36 0030 02008072 	 move r2, debounce_counter
-  37 0034 0F0000D0 	 ld r3, r3, 0
-  38 0038 0B000068 	 st r3, r2, 0
-  39 003c 000000B0 	 halt
-  40              	 .global changed
-  41              	changed:
-  42 0040 03008072 	 move r3, debounce_counter
-  43 0044 0E0000D0 	 ld r2, r3, 0
-  44 0048 0A000072 	 add r2, r2, 0
-  45 004c 00004080 	 jump edge_detected, eq
-  46 0050 1A002072 	 sub r2, r2, 1
-  47 0054 0E000068 	 st r2, r3, 0
-  48 0058 000000B0 	 halt
-  49              	 .global edge_detected
-  50              	edge_detected:
-  51 005c 03008072 	 move r3, debounce_max_count
-  52 0060 02008072 	 move r2, debounce_counter
-  53 0064 0F0000D0 	 ld r3, r3, 0
-  54 0068 0B000068 	 st r3, r2, 0
-  55 006c 03008072 	 move r3, next_edge
-  56 0070 0E0000D0 	 ld r2, r3, 0
-  57 0074 1A000072 	 add r2, r2, 1
+  25 0004 03008072 	 move r3, io_number
+  26 0008 0F0000D0 	 ld r3, r3, 0
+  27 000c 3000C070 	 rsh r0, r0, r3
+  28 0010 10004072 	 and r0, r0, 1
+  29 0014 03008072 	 move r3, next_edge
+  30 0018 0F0000D0 	 ld r3, r3, 0
+  31 001c 33000070 	 add r3, r0, r3
+  32 0020 1F004072 	 and r3, r3, 1
+  33 0024 00004080 	 jump changed, eq
+  34 0028 03008072 	 move r3, debounce_max_count
+  35 002c 02008072 	 move r2, debounce_counter
+  36 0030 0F0000D0 	 ld r3, r3, 0
+  37 0034 0B000068 	 st r3, r2, 0
+  38 0038 000000B0 	 halt
+  39              	 .global changed
+  40              	changed:
+  41 003c 03008072 	 move r3, debounce_counter
+  42 0040 0E0000D0 	 ld r2, r3, 0
+  43 0044 0A000072 	 add r2, r2, 0
+  44 0048 00004080 	 jump edge_detected, eq
+  45 004c 1A002072 	 sub r2, r2, 1
+  46 0050 0E000068 	 st r2, r3, 0
+  47 0054 000000B0 	 halt
+  48              	 .global edge_detected
+  49              	edge_detected:
+  50 0058 03008072 	 move r3, debounce_max_count
+  51 005c 02008072 	 move r2, debounce_counter
+  52 0060 0F0000D0 	 ld r3, r3, 0
+  53 0064 0B000068 	 st r3, r2, 0
+  54 0068 03008072 	 move r3, next_edge
+  55 006c 0E0000D0 	 ld r2, r3, 0
+  56 0070 1A000072 	 add r2, r2, 1
+  57 0074 1A004072 	 and r2, r2, 1
 ESP32ULP GAS  pulse_cnt.ulp.pS 			page 2
 
 
-  58 0078 1A004072 	 and r2, r2, 1
-  59 007c 0E000068 	 st r2, r3, 0
-  60 0080 03008072 	 move r3, edge_count
-  61 0084 0E0000D0 	 ld r2, r3, 0
-  62 0088 1A000072 	 add r2, r2, 1
-  63 008c 0E000068 	 st r2, r3, 0
-  64 0090 03008072 	 move r3, edge_count_to_wake_up
-  65 0094 0F0000D0 	 ld r3, r3, 0
-  66 0098 2F002070 	 sub r3, r3, r2
-  67 009c 00004080 	 jump wake_up, eq
-  68 00a0 000000B0 	 halt
-  69              	 .global wake_up
-  70              	wake_up:
-  71 00a4 3000CC29 	 REG_RD ((((0x3ff48000 + 0xc0)) - 0x3ff48000) / 4), ((19) + ((((((((0x1) >> (0)) & 1) + (((0x1) >> 
-  72 00a8 10004072 	 and r0, r0, 1
-  73 00ac 00004080 	 jump wake_up, eq
-  74 00b0 01000090 	 wake
-  75 00b4 000000B0 	 halt
+  58 0078 0E000068 	 st r2, r3, 0
+  59 007c 03008072 	 move r3, edge_count
+  60 0080 0E0000D0 	 ld r2, r3, 0
+  61 0084 1A000072 	 add r2, r2, 1
+  62 0088 0E000068 	 st r2, r3, 0
+  63 008c 03008072 	 move r3, edge_count_to_wake_up
+  64 0090 0F0000D0 	 ld r3, r3, 0
+  65 0094 2F002070 	 sub r3, r3, r2
+  66 0098 00004080 	 jump wake_up, eq
+  67 009c 000000B0 	 halt
+  68              	 .global wake_up
+  69              	wake_up:
+  70 00a0 3000CC29 	 REG_RD ((((0x3ff48000 + 0xc0)) - 0x3ff48000) / 4), ((19) + ((((((((0x1) >> (0)) & 1) + (((0x1) >> 
+  71 00a4 10004072 	 and r0, r0, 1
+  72 00a8 00004080 	 jump wake_up, eq
+  73 00ac 01000090 	 wake
+  74 00b0 000000B0 	 halt

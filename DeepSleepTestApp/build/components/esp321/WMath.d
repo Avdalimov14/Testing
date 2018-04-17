@@ -1,5 +1,5 @@
 esp321/WMath.o: \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/WMath.cpp \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/WMath.cpp \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdlib.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/_ansi.h \
@@ -26,7 +26,7 @@ esp321/WMath.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/sched.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/stdio.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_sleep.h \
  /home/albert/ESP32_101/esp-idf/components/driver/include/driver/gpio.h \
@@ -109,7 +109,7 @@ esp321/WMath.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h:
 
@@ -168,4 +168,4 @@ esp321/WMath.o: \
 /home/albert/ESP32_101/esp-idf/components/esp32/include/xtensa/config/core-matmap.h:
 
 /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/WMath.cpp:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/WMath.cpp:

@@ -1,6 +1,6 @@
 stack_check.o: \
  /home/albert/ESP32_101/esp-idf/components/esp32/./stack_check.c \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_system.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -57,7 +57,7 @@ stack_check.o: \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/touch_channel.h
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_system.h:
 

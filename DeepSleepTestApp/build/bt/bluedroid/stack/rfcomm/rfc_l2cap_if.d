@@ -1,7 +1,7 @@
 bluedroid/stack/rfcomm/rfc_l2cap_if.o: \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/rfcomm/rfc_l2cap_if.c \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_target.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -107,7 +107,7 @@ bluedroid/stack/rfcomm/rfc_l2cap_if.o: \
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_target.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
 

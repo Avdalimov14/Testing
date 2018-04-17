@@ -17,7 +17,7 @@ bluedroid/bta/sdp/bta_sdp.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/alloca.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_target.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -143,7 +143,7 @@ bluedroid/bta/sdp/bta_sdp.o: \
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_target.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
 

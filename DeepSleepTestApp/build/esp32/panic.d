@@ -27,7 +27,7 @@ panic.o: /home/albert/ESP32_101/esp-idf/components/esp32/./panic.c \
  /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_assert.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/rom/uart.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_types.h \
@@ -153,7 +153,7 @@ panic.o: /home/albert/ESP32_101/esp-idf/components/esp32/./panic.c \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h:
 

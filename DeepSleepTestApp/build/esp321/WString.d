@@ -1,6 +1,6 @@
 WString.o: \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/./WString.cpp \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/./WString.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/./WString.cpp \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/./WString.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdlib.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/_ansi.h \
@@ -20,12 +20,12 @@ WString.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/string.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/string.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/ctype.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/pgmspace.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/./stdlib_noniso.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/./esp32-hal-log.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/pgmspace.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/./stdlib_noniso.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/./esp32-hal-log.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/./WString.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/./WString.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/stdlib.h:
 
@@ -65,11 +65,11 @@ WString.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/ctype.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/pgmspace.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/pgmspace.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/./stdlib_noniso.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/./stdlib_noniso.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/./esp32-hal-log.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/./esp32-hal-log.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/./WString.cpp:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/./WString.cpp:

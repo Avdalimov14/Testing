@@ -28,7 +28,7 @@ bluedroid/api/esp_bt_device.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/sched.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/stdio.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/api/include/esp_bt_defs.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/api/include/esp_bt_main.h \
@@ -171,7 +171,7 @@ bluedroid/api/esp_bt_device.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h:
 

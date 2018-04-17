@@ -1,6 +1,6 @@
 spiram_psram.o: \
  /home/albert/ESP32_101/esp-idf/components/esp32/./spiram_psram.c \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/string.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/_ansi.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/newlib.h \
@@ -60,7 +60,7 @@ spiram_psram.o: \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/rom/queue.h \
  /home/albert/ESP32_101/esp-idf/components/driver/include/driver/periph_ctrl.h
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/string.h:
 

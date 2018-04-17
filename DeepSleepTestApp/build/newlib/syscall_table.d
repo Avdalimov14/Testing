@@ -39,7 +39,7 @@ syscall_table.o: \
  /home/albert/ESP32_101/esp-idf/components/vfs/include/esp_vfs.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_err.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/dirent.h \
  /home/albert/ESP32_101/esp-idf/components/vfs/include/sys/dirent.h \
@@ -123,7 +123,7 @@ syscall_table.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/assert.h:
 

@@ -28,7 +28,7 @@ tcpip_adapter_lwip.o: \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/rom/queue.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_err.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdlib.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/alloca.h \
@@ -200,7 +200,7 @@ tcpip_adapter_lwip.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/stdlib.h:
 

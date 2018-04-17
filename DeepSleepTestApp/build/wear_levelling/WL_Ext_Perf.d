@@ -24,7 +24,7 @@ WL_Ext_Perf.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/sched.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/stdio.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdlib.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/alloca.h \
@@ -87,7 +87,7 @@ WL_Ext_Perf.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/stdlib.h:
 

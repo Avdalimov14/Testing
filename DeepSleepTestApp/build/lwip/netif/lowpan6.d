@@ -33,7 +33,7 @@ netif/lowpan6.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/stat.h \
  /home/albert/ESP32_101/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_task.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_system.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -169,7 +169,7 @@ netif/lowpan6.o: \
 
 /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_task.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/esp32/include/esp_system.h:
 

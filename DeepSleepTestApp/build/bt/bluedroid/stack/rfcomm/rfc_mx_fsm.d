@@ -22,7 +22,7 @@ bluedroid/stack/rfcomm/rfc_mx_fsm.o: \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/l2cdefs.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/port_api.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_target.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/dyn_mem.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_trace.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdio.h \
@@ -150,7 +150,7 @@ bluedroid/stack/rfcomm/rfc_mx_fsm.o: \
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_target.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/stack/include/dyn_mem.h:
 

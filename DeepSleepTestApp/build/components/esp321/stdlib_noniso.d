@@ -1,5 +1,5 @@
 esp321/stdlib_noniso.o: \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/stdlib_noniso.c \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/stdlib_noniso.c \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdlib.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/_ansi.h \
@@ -21,7 +21,7 @@ esp321/stdlib_noniso.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/math.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/stdlib_noniso.h
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/stdlib_noniso.h
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/stdlib.h:
 
@@ -65,5 +65,5 @@ esp321/stdlib_noniso.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/math.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/stdlib_noniso.h:
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/stdlib_noniso.c:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/stdlib_noniso.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/stdlib_noniso.c:

@@ -1,6 +1,6 @@
 cbuf.o: \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/./cbuf.cpp \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/./cbuf.h \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/./cbuf.cpp \
+ /home/albert/Testing/DeepSleepTestApp/components/esp321/./cbuf.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/features.h \
@@ -19,7 +19,7 @@ cbuf.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/string.h
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/./cbuf.h:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/./cbuf.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h:
 
@@ -54,4 +54,4 @@ cbuf.o: \
 /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/cdefs.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/string.h:
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/components/esp321/./cbuf.cpp:
+/home/albert/Testing/DeepSleepTestApp/components/esp321/./cbuf.cpp:

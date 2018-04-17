@@ -19,7 +19,7 @@ heap_trace.o: \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/endian.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/param.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/heap/include/esp_heap_trace.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -126,7 +126,7 @@ heap_trace.o: \
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/machine/param.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/heap/include/esp_heap_trace.h:
 

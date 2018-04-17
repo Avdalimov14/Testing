@@ -1,7 +1,7 @@
 bluedroid/device/controller.o: \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/device/controller.c \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_trace.h \
- /home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h \
+ /home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/stdio.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/_ansi.h \
  /home/albert/ESP32_101/esp-idf/components/newlib/include/newlib.h \
@@ -117,7 +117,7 @@ bluedroid/device/controller.o: \
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/include/bt_trace.h:
 
-/home/albert/ESP32_101/101DevEsp32/101Workspace/DeepSleepTestApp/build/include/sdkconfig.h:
+/home/albert/Testing/DeepSleepTestApp/build/include/sdkconfig.h:
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/stdio.h:
 
