@@ -30,9 +30,25 @@ extern "C" {
 #include "esp_gatt_defs.h"
 #include "esp_bt_main.h"
 #include "esp_gatt_common_api.h"
+
+#include "ulp_main.h"
+#include "driver/rtc_io.h"
+#include "esp32/ulp.h"
+#include "esp_sleep.h"
+#include "soc/rtc_cntl_reg.h"
+#include "soc/sens_reg.h"
 }
 
 extern "C" {
+
+// ULP defines
+
+extern const uint8_t ulp_main_bin_start[] asm("_binary_ulp_main_bin_start");
+extern const uint8_t ulp_main_bin_end[]   asm("_binary_ulp_main_bin_end");
+
+static void init_ulp_program();
+static void update_pulse_count();
+
 // BLE defines
 #define GATTC_TAG "GATTC_DEMO"
 #define REMOTE_SERVICE_UUID        0x00FF
@@ -160,151 +176,9 @@ void beep();
 void waitUntilPress(gpio_num_t gpioNum);
 }
 
-//void nfcHandle() {
-//
-//	TestStrtuct test1;
-//
-//    Serial.begin(115200);
-//
-//    while (1) {
-//    	// ReadTag
-//    	printf("\nScan a NFC tag\n");
-//    	char desString[50];
-//
-//    	  if (nfc.tagPresent())
-//    	  {
-//    		  // Extract MAC Address to use
-//    	    NfcTag tag = nfc.read();
-//    	    tag.getTagType().toCharArray(desString, 50);
-//    	    puts(desString);
-//    	    puts("UID: ");
-//    	    tag.getUidString().toCharArray(desString, 50);
-//    	    puts(desString);
-//
-//    	    if (tag.hasNdefMessage()) // every tag won't have a message
-//    	    {
-//
-//    	      NdefMessage message = tag.getNdefMessage();
-//    	      printf("\nThis NFC Tag contains an NDEF Message with ");
-//    	      printf("%d", message.getRecordCount());
-//    	      printf(" NDEF Record");
-//    	      if (message.getRecordCount() != 1) {
-//    	        printf("s");
-//    	      }
-//    	      puts(".");
-//
-//    	      // cycle through the records, printing some info from each
-//    	      int recordCount = message.getRecordCount();
-//    	      for (int i = 0; i < recordCount; i++)
-//    	      {
-//    	    	  printf("NDEF Record ");printf("%d\n", i+1);
-//    	        NdefRecord record = message.getRecord(i);
-//    	        // NdefRecord record = message[i]; // alternate syntax
-//
-//    	        printf("  TNF: ");printf("%d\n", record.getTnf());  // Tnf = Type Name Field. T - text, 2 - Bluetooth
-//    	        printf("  Type: ");
-//    	        record.getType().toCharArray(desString, 50);
-//				puts(desString); // will be "" for TNF_EMPTY
-//
-//    	        // The TNF and Type should be used to determine how your application processes the payload
-//    	        // There's no generic processing for the payload, it's returned as a byte[]
-//    	        int payloadLength = record.getPayloadLength();
-//    	        byte payload[payloadLength];
-//    	        record.getPayload(payload);
-//
-//    	        // check for TNF: if TNF = 2 so save to mac address field
-//				if (record.getTnf() == 2) {
-//					for (int i = 0; i < MAC_SIZE; i++) {
-//						smartphoneMAC[i] = payload[payloadLength - i - 1];
-//						printf("%2X:", smartphoneMAC[i]);
-//					}
-//					printf("\n");
-//    	        }
-//
-//    	        // Print the Hex and Printable Characters
-//    	        puts("  Payload (HEX): ");
-//    	        PrintHexChar(payload, payloadLength);
-//
-//    	        // Force the data into a String (might work depending on the content)
-//    	        // Real code should use smarter processing
-//    	        String payloadAsString = "";
-//    	        for (int c = 0; c < payloadLength; c++) {
-//    	          payloadAsString += (char)payload[c];
-//    	        }
-//    	        puts("  Payload (as String): ");
-//    	        payloadAsString.toCharArray(desString, 50);
-//				puts(desString);
-//    	        // id is probably blank and will return ""
-//    	        String uid = record.getId();
-//    	        if (uid != "") {
-//    	        	uid.toCharArray(desString, 50);
-//    	          puts("  ID: ");puts(desString);
-//    	        }
-//    	      }
-//    	    }
-//			  printf("For sending please keep the tag close");
-//			  vTaskDelay(500);
-//			  puts("...");
-//
-//			  if (nfc.tagPresent()) {
-//
-//				  uint64_t sendValue = 0;
-//				  //char* numnum;
-//				  //numnum = (char*)malloc(10*sizeof(char));
-////				  strcpy(numnum, "Success!");
-////				  test1.pData = numnum;
-//				  sendValue += (test1.timePast << (8*(3))) | (test1.type << (8*2)) | (test1.data & (65535));
-//				  printf ("0x%8X 0x%8X is sent!\n", (int)(sendValue >> 32), (int)sendValue);
-//			  }
-//			  BEEP;
-//
-//    	  }
-//
-//    	  vTaskDelay(3000);
-//
-//    	}
-//}
+void nfcHandle() {
 
-int app_main(void) {
 
-	int itCnt = 0;
-
-	while(nfc.begin()) {
-		printf("Connect NFC Module to continue!!!\n");
-		vTaskDelay(300 / portTICK_RATE_MS);
-	}
-
-	init_gpio();
-	vTaskDelay(100 / portTICK_RATE_MS);
-	init_pwm(1);
-	Serial.begin(115200);
-//	while(nfc.begin()) {
-//		printf("Connect NFC Module to continue!!!\n");
-//		vTaskDelay(300 / portTICK_RATE_MS);
-//	}
-
-	printf("Welcome to 101 testing active low code.\n");
-
-	// buzzer tests
-	BEEP;
-	BEEP;
-	vTaskDelay(300 / portTICK_RATE_MS);
-	printf("Please press on GPIO 0 to continue test\n");
-	waitUntilPress(GPIO_INPUT_IO0);
-	// end of buzzer tests
-	// turn on 1 LED
-	gpio_set_level(GPIO_OUTPUT_RRGB1, NULL);
-	gpio_set_level(GPIO_OUTPUT_GRGB1, NULL);
-	gpio_set_level(GPIO_OUTPUT_BRGB1, NULL);
-	vTaskDelay(300 / portTICK_RATE_MS);
-	printf("Please press on GPIO 0 to continue test\n");
-	waitUntilPress(GPIO_INPUT_IO0);
-
-//	nfc.begin();
-//
-//	vTaskDelay(300 / portTICK_RATE_MS);
-//	printf("Please press on GPIO 0 to continue test\n");
-//	waitUntilPress(GPIO_INPUT_IO0);
 
 	if (nfc.tagPresent(5000)) {
 		char desString[50];
@@ -332,14 +206,57 @@ int app_main(void) {
 
 		BEEP;
 	}
+}
 
+int app_main(void) {
+
+	int itCnt = 0;
+
+
+	init_gpio();
+	vTaskDelay(100 / portTICK_RATE_MS);
+	init_pwm(1);
+	Serial.begin(115200);
+//	while(nfc.begin()) {
+//		printf("Connect NFC Module to continue!!!\n");
+//		vTaskDelay(300 / portTICK_RATE_MS);
+//	}
+//	xTaskCreatePinnedToCore((TaskFunction_t)nfc.begin(), "NFC HANDLE", 2048, NULL, 10, NULL, 1);
+
+	printf("Welcome to 101 testing Deep Sleep mode currents code.\n");
+
+	// buzzer tests
+	BEEP;
+	BEEP;
+	vTaskDelay(300 / portTICK_RATE_MS);
 	printf("Please press on GPIO 0 to continue test\n");
+	waitUntilPress(GPIO_INPUT_IO0);
+	// end of buzzer tests
+	// turn on 1 LED
+	gpio_set_level(GPIO_OUTPUT_RRGB1, NULL);
+	gpio_set_level(GPIO_OUTPUT_GRGB1, NULL);
+	gpio_set_level(GPIO_OUTPUT_BRGB1, NULL);
+	vTaskDelay(300 / portTICK_RATE_MS);
+	printf("Please press on GPIO 0 to continue test\n");
+	waitUntilPress(GPIO_INPUT_IO0);
+
+//	nfc.begin();
+//
+//	vTaskDelay(300 / portTICK_RATE_MS);
+//	printf("Please press on GPIO 0 to continue test\n");
+//	waitUntilPress(GPIO_INPUT_IO0);
+
+//	xTaskCreatePinnedToCore((TaskFunction_t)nfcHandle, "NFC HANDLE", 2048, NULL, 10, NULL, 1);//nfcHandle();
+
+//	nfcHandle();
+
+	printf("NFC should be on\nPlease press on GPIO 0 to start ble test\n");
 	waitUntilPress(GPIO_INPUT_IO0);
 
 	init_ble();
 	vTaskDelay(5000 / portTICK_RATE_MS);
 
-	printf("Please press on GPIO 0 to continue test\n");
+	printf("Please press on GPIO 0 to disable ble \n");
 	waitUntilPress(GPIO_INPUT_IO0);
 
 	deinit_ble();
@@ -347,20 +264,24 @@ int app_main(void) {
 	printf("Please press on GPIO 0 to continue test\n");
 	waitUntilPress(GPIO_INPUT_IO0);
 
+	// ULP
 
-
-//	// continues 1 sec buzzer test
-//	ledc_set_duty(ledc_channel[3].speed_mode, ledc_channel[3].channel, LEDC_FULL_DUTY / 2);
-//	ledc_update_duty(ledc_channel[3].speed_mode, ledc_channel[3].channel);
-//	vTaskDelay(1123 / portTICK_RATE_MS);
-//	ledc_set_duty(ledc_channel[3].speed_mode, ledc_channel[3].channel, LEDC_ZERO_DUTY);
-//	ledc_update_duty(ledc_channel[3].speed_mode, ledc_channel[3].channel);
-//	vTaskDelay(100 / portTICK_RATE_MS);
-//	printf("Please press on GPIO 0 to continue test\n");
-//	waitUntilPress(GPIO_INPUT_IO0);
-//
-//	printf("Please press on GPIO 0 to continue test\n");
-//	waitUntilPress(GPIO_INPUT_IO0);
+    esp_sleep_wakeup_cause_t cause = esp_sleep_get_wakeup_cause();
+    if (cause != ESP_SLEEP_WAKEUP_ULP) {
+        printf("Not ULP wakeup, initializing ULP\n");
+        init_ulp_program();
+    } /*else {
+        printf("ULP wakeup, saving pulse count\n");
+        update_pulse_count();
+    }*/
+	gpio_set_level(GPIO_OUTPUT_RRGB1, 1ULL);
+	gpio_set_level(GPIO_OUTPUT_GRGB1, 1ULL);
+	gpio_set_level(GPIO_OUTPUT_BRGB1, 1ULL);
+    vTaskDelay(500);
+    printf("Entering deep sleep\n\n");
+    ESP_ERROR_CHECK( esp_sleep_enable_ulp_wakeup() );
+//    ESP_ERROR_CHECK( esp_sleep_enable_timer_wakeup(10000000ULL) );
+    esp_deep_sleep_start();
 
 	// NFC module tests
 //		xTaskCreate(nfcHandle, "NFC Handle", 2048, NULL, 10, NULL);
@@ -381,19 +302,25 @@ void waitUntilPress(gpio_num_t gpioNum)
 
 void deinit_ble()
 {
-	esp_err_t ret = esp_bluedroid_deinit();
+	esp_err_t ret = esp_bluedroid_disable();
 	if (ret)
 		ESP_LOGE(GATTC_TAG, "%s deinit controller failed, error code = %x\n", __func__, ret);
-	ret = esp_bluedroid_disable();
+	ret = esp_bluedroid_deinit();
 	if (ret)
 		ESP_LOGE(GATTC_TAG, "%s disable controller failed, error code = %x\n", __func__, ret);
 }
 
 void init_ble()
 {
-	esp_err_t ret;
+    // Initialize NVS.
+    esp_err_t ret = nvs_flash_init();
+    if (ret == ESP_ERR_NVS_NO_FREE_PAGES) {
+        ESP_ERROR_CHECK(nvs_flash_erase());
+        ret = nvs_flash_init();
+    }
+    ESP_ERROR_CHECK( ret );
 
-	ESP_ERROR_CHECK(esp_bt_controller_mem_release(ESP_BT_MODE_CLASSIC_BT));
+    ESP_ERROR_CHECK(esp_bt_controller_mem_release(ESP_BT_MODE_CLASSIC_BT));
 
 	esp_bt_controller_config_t bt_cfg = BT_CONTROLLER_INIT_CONFIG_DEFAULT();
 	ret = esp_bt_controller_init(&bt_cfg);
@@ -858,3 +785,84 @@ static void esp_gattc_cb(esp_gattc_cb_event_t event, esp_gatt_if_t gattc_if, esp
     } while (0);
 }
 
+static void init_ulp_program()
+{
+    esp_err_t err = ulp_load_binary(0, ulp_main_bin_start,
+            (ulp_main_bin_end - ulp_main_bin_start) / sizeof(uint32_t));
+    ESP_ERROR_CHECK(err);
+
+    /* Initialize some variables used by ULP program.
+     * Each 'ulp_xyz' variable corresponds to 'xyz' variable in the ULP program.
+     * These variables are declared in an auto generated header file,
+     * 'ulp_main.h', name of this file is defined in component.mk as ULP_APP_NAME.
+     * These variables are located in RTC_SLOW_MEM and can be accessed both by the
+     * ULP and the main CPUs.
+     *
+     * Note that the ULP reads only the lower 16 bits of these variables.
+     */
+    ulp_debounce_counter = 3;
+    ulp_debounce_max_count = 3;
+    ulp_next_edge = 0;
+    ulp_io_number = 11; /* GPIO0 is RTC_IO 11 */
+    ulp_edge_count_to_wake_up = 4;
+
+    /* Initialize GPIO0 as RTC IO, input, disable pullup and pulldown */
+    gpio_num_t gpio_num = GPIO_NUM_0;
+    rtc_gpio_set_direction(gpio_num, RTC_GPIO_MODE_INPUT_ONLY);
+    rtc_gpio_pulldown_dis(gpio_num);
+//    rtc_gpio_pullup_dis(gpio_num);
+    rtc_gpio_hold_en(gpio_num);
+
+    /* Disable pullup on GPIO15, in case it is connected to ground to suppress
+     * boot messages.
+     */
+    rtc_gpio_pullup_dis(GPIO_NUM_15);
+    rtc_gpio_hold_en(GPIO_NUM_15);
+
+    // Set gpio 14 (16 rtc io) as output
+    gpio_num = GPIO_NUM_14;
+    rtc_gpio_init(gpio_num);
+    rtc_gpio_set_direction(gpio_num, RTC_GPIO_MODE_OUTPUT_ONLY);
+	rtc_gpio_pulldown_dis(gpio_num);
+	rtc_gpio_pullup_dis(gpio_num);
+//	rtc_gpio_hold_en(gpio_num);
+
+
+
+    /* Set ULP wake up period to T = 20ms (3095 cycles of RTC_SLOW_CLK clock).
+     * Minimum pulse width has to be T * (ulp_debounce_counter + 1) = 80ms.
+     */
+    REG_SET_FIELD(SENS_ULP_CP_SLEEP_CYC0_REG, SENS_SLEEP_CYCLES_S0, 3095);
+
+    /* Start the program */
+    err = ulp_run((&ulp_entry - RTC_SLOW_MEM) / sizeof(uint32_t));
+    ESP_ERROR_CHECK(err);
+}
+
+static void update_pulse_count()
+{
+
+    const char* count_key = "count";
+    const char* nameSpace = "plusecnt";
+
+    ESP_ERROR_CHECK( nvs_flash_init() );
+    nvs_handle handle;
+    ESP_ERROR_CHECK( nvs_open(nameSpace, NVS_READWRITE, &handle));
+    uint32_t pulse_count = 0;
+    esp_err_t err = nvs_get_u32(handle, count_key, &pulse_count);
+    assert(err == ESP_OK || err == ESP_ERR_NVS_NOT_FOUND);
+    printf("Read pulse count from NVS: %5d\n", pulse_count);
+
+    /* ULP program counts signal edges, convert that to the number of pulses */
+    uint32_t pulse_count_from_ulp = (ulp_edge_count & UINT16_MAX) / 2;
+    /* In case of an odd number of edges, keep one until next time */
+    ulp_edge_count = ulp_edge_count % 2;
+    printf("Pulse count from ULP: %5d\n", pulse_count_from_ulp);
+
+    /* Save the new pulse count to NVS */
+    pulse_count += pulse_count_from_ulp;
+    ESP_ERROR_CHECK(nvs_set_u32(handle, count_key, pulse_count));
+    ESP_ERROR_CHECK(nvs_commit(handle));
+    nvs_close(handle);
+    printf("Wrote updated pulse count to NVS: %5d\n", pulse_count);
+}

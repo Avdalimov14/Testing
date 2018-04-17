@@ -170,7 +170,13 @@ main.o: /home/albert/Testing/DeepSleepTestApp/main/./main.cpp \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/api/include/esp_gatt_defs.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/api/include/esp_gatt_defs.h \
  /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/api/include/esp_bt_main.h \
- /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/api/include/esp_gatt_common_api.h
+ /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/api/include/esp_gatt_common_api.h \
+ /home/albert/Testing/DeepSleepTestApp/build/main/ulp_main.h \
+ /home/albert/ESP32_101/esp-idf/components/driver/include/driver/rtc_io.h \
+ /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/rtc_gpio_channel.h \
+ /home/albert/ESP32_101/esp-idf/components/ulp/include/esp32/ulp.h \
+ /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
+ /home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/sens_reg.h
 
 /home/albert/ESP32_101/esp-idf/components/newlib/include/string.h:
 
@@ -515,4 +521,16 @@ main.o: /home/albert/Testing/DeepSleepTestApp/main/./main.cpp \
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/api/include/esp_bt_main.h:
 
 /home/albert/ESP32_101/esp-idf/components/bt/bluedroid/api/include/esp_gatt_common_api.h:
+
+/home/albert/Testing/DeepSleepTestApp/build/main/ulp_main.h:
+
+/home/albert/ESP32_101/esp-idf/components/driver/include/driver/rtc_io.h:
+
+/home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/rtc_gpio_channel.h:
+
+/home/albert/ESP32_101/esp-idf/components/ulp/include/esp32/ulp.h:
+
+/home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h:
+
+/home/albert/ESP32_101/esp-idf/components/soc/esp32/include/soc/sens_reg.h:
 /home/albert/Testing/DeepSleepTestApp/main/./main.cpp:

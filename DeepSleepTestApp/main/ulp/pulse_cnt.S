@@ -68,8 +68,8 @@ io_number:
 entry:
 	/* Read the value of lower 16 RTC IOs into R0 */
 	READ_RTC_FIELD(RTC_GPIO_IN_REG, RTC_GPIO_IN_NEXT)
-	/* Clear GPIO 27 (17 rtc)  */
-	WRITE_RTC_REG(RTC_GPIO_OUT_W1TS_REG, RTC_GPIO_OUT_DATA_W1TS_S + 17, 1, 1)
+	/* Clear GPIO 14 (16 rtc)  */
+	WRITE_RTC_REG(RTC_GPIO_OUT_W1TS_REG, RTC_GPIO_OUT_DATA_W1TS_S + 16, 1, 1)
 	/* Load io_number, extract the state of input */
 	move r3, io_number
 	ld r3, r3, 0
