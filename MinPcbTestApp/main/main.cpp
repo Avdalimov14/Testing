@@ -26,6 +26,7 @@ byte smartphoneMAC[MAC_SIZE];
 extern "C" {
 	int app_main(void);
 
+#define NOPRESS
 //}
 
 // PWM Defines
@@ -78,7 +79,9 @@ void nfcHandle() {
 
     Serial.begin(115200);
 
-    while (1) {
+    int i = 3;
+
+    while (i) {
     	// ReadTag
     	printf("\nScan a NFC tag\n");
     	char desString[50];
@@ -172,7 +175,8 @@ void nfcHandle() {
 
     	  }
 
-    	  vTaskDelay(500);
+    	  vTaskDelay(250);
+    	  i--;
 
     	}
 }
@@ -190,31 +194,49 @@ int app_main(void) {
 	}
 
 	printf("Welcome to 101DevBoard testing code.\n");
-//	while (1) {
+	while (1) {
 		printf("Please press on GPIO 0 to start test... (Buzzer beeps twice)\n");
+#ifndef NOPRESS
 		waitUntilPress(GPIO_INPUT_IO0);
+#endif
 		// buzzer tests
 		BEEP;
 		BEEP;
 		// end of buzzer tests
 
 		printf("Please press on GPIO 0 to light color\n");
+#ifndef NOPRESS
 		waitUntilPress(GPIO_INPUT_IO0);
+#else
+		vTaskDelay(1000 / portTICK_RATE_MS);
+#endif
 		// RGB IOs 14,12,27
 		gpio_set_level(GPIO_OUTPUT_RRGB1, 1);
 		vTaskDelay(250 / portTICK_RATE_MS);
 		printf("Please press on GPIO 0 to o light another color\n");
+#ifndef NOPRESS
 		waitUntilPress(GPIO_INPUT_IO0);
+#else
+		vTaskDelay(750 / portTICK_RATE_MS);
+#endif
 		gpio_set_level(GPIO_OUTPUT_RRGB1, NULL);
 		gpio_set_level(GPIO_OUTPUT_GRGB1, 1);
 		vTaskDelay(250 / portTICK_RATE_MS);
 		printf("Please press on GPIO 0 to o light another color\n");
+#ifndef NOPRESS
 		waitUntilPress(GPIO_INPUT_IO0);
+#else
+		vTaskDelay(750 / portTICK_RATE_MS);
+#endif
 		gpio_set_level(GPIO_OUTPUT_GRGB1, NULL);
 		gpio_set_level(GPIO_OUTPUT_BRGB1, 1);
 		vTaskDelay(250 / portTICK_RATE_MS);
 		printf("Please press on GPIO 0 to o light white color\n");
+#ifndef NOPRESS
 		waitUntilPress(GPIO_INPUT_IO0);
+#else
+		vTaskDelay(750 / portTICK_RATE_MS);
+#endif
 		gpio_set_level(GPIO_OUTPUT_RRGB1, 1);
 		gpio_set_level(GPIO_OUTPUT_GRGB1, 1);
 		vTaskDelay(250 / portTICK_RATE_MS);
@@ -222,14 +244,18 @@ int app_main(void) {
 
 		// NFC module tests
 		printf("Please press on GPIO 0 to start NFC module test and turn off the LED\n");
+#ifndef NOPRESS
 		waitUntilPress(GPIO_INPUT_IO0);
+#else
+		vTaskDelay(750 / portTICK_RATE_MS);
+#endif
 		gpio_set_level(GPIO_OUTPUT_RRGB1, NULL);
 		gpio_set_level(GPIO_OUTPUT_GRGB1, NULL);
 		gpio_set_level(GPIO_OUTPUT_BRGB1, NULL);
 		nfcHandle();
 		// end of NFC module tests
 
-	//}
+	}
 
 		// need to xTaskCreate
 	return 0;

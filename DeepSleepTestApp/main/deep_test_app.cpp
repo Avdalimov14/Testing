@@ -127,7 +127,7 @@ byte smartphoneMAC[MAC_SIZE];
 
 extern "C" {
 	int app_main(void);
-
+	void nfcHandle(void *pvParameters);
 //}
 
 // PWM Defines
@@ -176,35 +176,36 @@ void beep();
 void waitUntilPress(gpio_num_t gpioNum);
 }
 
-void nfcHandle() {
+void nfcHandle(void *pvParameters) {
 
 
+	while (1) {
+		if (nfc.tagPresent(5000)) {
+			char desString[50];
 
-	if (nfc.tagPresent(5000)) {
-		char desString[50];
+			NfcTag tag = nfc.read();
+			tag.getTagType().toCharArray(desString, 50);
+			puts(desString);
+			puts("UID: ");
+			tag.getUidString().toCharArray(desString, 50);
+			puts(desString);
 
-		NfcTag tag = nfc.read();
-		tag.getTagType().toCharArray(desString, 50);
-		puts(desString);
-		puts("UID: ");
-		tag.getUidString().toCharArray(desString, 50);
-		puts(desString);
+			if (tag.hasNdefMessage()) // every tag won't have a message
+			{
 
-		if (tag.hasNdefMessage()) // every tag won't have a message
-		{
+			  NdefMessage message = tag.getNdefMessage();
+			  printf("\nThis NFC Tag contains an NDEF Message with ");
+			  printf("%d", message.getRecordCount());
+			  printf(" NDEF Record");
+			  if (message.getRecordCount() != 1) {
+				printf("s");
+			  }
+			  puts(".");
 
-		  NdefMessage message = tag.getNdefMessage();
-		  printf("\nThis NFC Tag contains an NDEF Message with ");
-		  printf("%d", message.getRecordCount());
-		  printf(" NDEF Record");
-		  if (message.getRecordCount() != 1) {
-			printf("s");
-		  }
-		  puts(".");
+			}
 
+			BEEP;
 		}
-
-		BEEP;
 	}
 }
 
@@ -246,6 +247,7 @@ int app_main(void) {
 //	printf("Please press on GPIO 0 to continue test\n");
 //	waitUntilPress(GPIO_INPUT_IO0);
 
+	xTaskCreate(nfcHandle, "Nfc Handle", 2048, NULL, 10, NULL);
 //	xTaskCreatePinnedToCore((TaskFunction_t)nfcHandle, "NFC HANDLE", 2048, NULL, 10, NULL, 1);//nfcHandle();
 
 //	nfcHandle();
@@ -809,8 +811,8 @@ static void init_ulp_program()
      *
      * Note that the ULP reads only the lower 16 bits of these variables.
      */
-    ulp_debounce_counter = 6;
-    ulp_debounce_max_count = 6;
+    ulp_debounce_counter = 3;
+    ulp_debounce_max_count = 3;
     ulp_next_edge = 0;
     ulp_io_number = 11; /* GPIO0 is RTC_IO 11 */
     ulp_edge_count_to_wake_up = 4;
@@ -819,7 +821,7 @@ static void init_ulp_program()
     gpio_num_t gpio_num = GPIO_NUM_0;
     rtc_gpio_set_direction(gpio_num, RTC_GPIO_MODE_INPUT_ONLY);
     rtc_gpio_pulldown_dis(gpio_num);
-//    rtc_gpio_pullup_dis(gpio_num);
+    rtc_gpio_pullup_dis(gpio_num);
     rtc_gpio_hold_en(gpio_num);
 
     /* Disable pullup on GPIO15, in case it is connected to ground to suppress
