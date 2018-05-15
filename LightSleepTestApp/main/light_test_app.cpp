@@ -7,6 +7,7 @@
 #include "Arduino.h"
 
 extern "C" {
+#include "sdkconfig.h"
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -51,8 +52,8 @@ static void update_pulse_count();
 
 // BLE defines
 #define GATTC_TAG "GATTC_DEMO"
-#define REMOTE_SERVICE_UUID        0x00FF
-#define REMOTE_NOTIFY_CHAR_UUID    0xFF01
+#define REMOTE_SERVICE_UUID        0x181C
+#define REMOTE_NOTIFY_CHAR_UUID    0x2A8A
 #define PROFILE_NUM      1
 #define PROFILE_A_APP_ID 0
 #define INVALID_HANDLE   0
@@ -259,7 +260,7 @@ int app_main(void) {
 	printf("Please press on GPIO 0 to disable ble \n");
 	waitUntilPress(GPIO_INPUT_IO0);
 
-	deinit_ble();
+//	deinit_ble();
 
 	printf("Please press on GPIO 0 to continue test\n");
 	waitUntilPress(GPIO_INPUT_IO0);

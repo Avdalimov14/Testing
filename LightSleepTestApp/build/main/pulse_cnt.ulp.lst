@@ -1,0 +1,81 @@
+ESP32ULP GAS  pulse_cnt.ulp.pS 			page 1
+
+
+   1              	       
+   2              	 .bss
+   3              	 .global next_edge
+   4              	next_edge:
+   5 0000 00000000 	 .long 0
+   6              	 .global debounce_counter
+   7              	debounce_counter:
+   8 0004 00000000 	 .long 0
+   9              	 .global debounce_max_count
+  10              	debounce_max_count:
+  11 0008 00000000 	 .long 0
+  12              	 .global edge_count
+  13              	edge_count:
+  14 000c 00000000 	 .long 0
+  15              	 .global edge_count_to_wake_up
+  16              	edge_count_to_wake_up:
+  17 0010 00000000 	 .long 0
+  18              	 .global io_number
+  19              	io_number:
+  20 0014 00000000 	 .long 0
+  21              	 .text
+  22              	 .global entry
+  23              	entry:
+  24 0000 0901B82E 	 REG_RD ((((0x3ff48400 + 0x24)) - 0x3ff48000) / 4), ((14) + ((((((((0x3FFFF) >> (0)) & 1) + (((0x3F
+  25 0004 0105781F 	 REG_WR ((((0x3ff48400 + 0x4)) - 0x3ff48000) / 4), ((14 + 16) + (1) - 1), (14 + 16), ((1) & 0xff)
+  26 0008 03008072 	 move r3, io_number
+  27 000c 0F0000D0 	 ld r3, r3, 0
+  28 0010 3000C070 	 rsh r0, r0, r3
+  29 0014 10004072 	 and r0, r0, 1
+  30 0018 03008072 	 move r3, next_edge
+  31 001c 0F0000D0 	 ld r3, r3, 0
+  32 0020 33000070 	 add r3, r0, r3
+  33 0024 1F004072 	 and r3, r3, 1
+  34 0028 00004080 	 jump changed, eq
+  35 002c 03008072 	 move r3, debounce_max_count
+  36 0030 02008072 	 move r2, debounce_counter
+  37 0034 0F0000D0 	 ld r3, r3, 0
+  38 0038 0B000068 	 st r3, r2, 0
+  39 003c 000000B0 	 halt
+  40              	 .global changed
+  41              	changed:
+  42 0040 03008072 	 move r3, debounce_counter
+  43 0044 0E0000D0 	 ld r2, r3, 0
+  44 0048 0A000072 	 add r2, r2, 0
+  45 004c 00004080 	 jump edge_detected, eq
+  46 0050 1A002072 	 sub r2, r2, 1
+  47 0054 0E000068 	 st r2, r3, 0
+  48 0058 000000B0 	 halt
+  49              	 .global edge_detected
+  50              	edge_detected:
+  51 005c 03008072 	 move r3, debounce_max_count
+  52 0060 02008072 	 move r2, debounce_counter
+  53 0064 0F0000D0 	 ld r3, r3, 0
+  54 0068 0B000068 	 st r3, r2, 0
+  55 006c 03008072 	 move r3, next_edge
+  56 0070 0E0000D0 	 ld r2, r3, 0
+  57 0074 1A000072 	 add r2, r2, 1
+ESP32ULP GAS  pulse_cnt.ulp.pS 			page 2
+
+
+  58 0078 1A004072 	 and r2, r2, 1
+  59 007c 0E000068 	 st r2, r3, 0
+  60 0080 03008072 	 move r3, edge_count
+  61 0084 0E0000D0 	 ld r2, r3, 0
+  62 0088 1A000072 	 add r2, r2, 1
+  63 008c 0E000068 	 st r2, r3, 0
+  64 0090 03008072 	 move r3, edge_count_to_wake_up
+  65 0094 0F0000D0 	 ld r3, r3, 0
+  66 0098 2F002070 	 sub r3, r3, r2
+  67 009c 00004080 	 jump wake_up, eq
+  68 00a0 000000B0 	 halt
+  69              	 .global wake_up
+  70              	wake_up:
+  71 00a4 3000CC29 	 REG_RD ((((0x3ff48000 + 0xc0)) - 0x3ff48000) / 4), ((19) + ((((((((0x1) >> (0)) & 1) + (((0x1) >> 
+  72 00a8 10004072 	 and r0, r0, 1
+  73 00ac 00004080 	 jump wake_up, eq
+  74 00b0 01000090 	 wake
+  75 00b4 000000B0 	 halt
