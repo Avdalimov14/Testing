@@ -28,10 +28,9 @@
 # Tests Insrtuction:
 - The test includes NFC module connection, if it isn't connected correctly they program won't continue, you will see it on serial monitor. 
 - the system will continue to next test by pressing GPIO0.
-- First test: Buzzer beeps twice.
-- Second test (3 Clicks): RGB LED will light different single color for each press on GPIO0.
-- Third test:  RGB LED will light white color.
-- Fourth test: NFC Module Test --> if you have any NFC tag try to scan it, it should beep after a scan.
+- First test (3 Clicks): RGB LED will light different single color for each press on GPIO0.
+- Second test:  RGB LED will light white color.
+- Third test: NFC Module Test --> if you have any NFC tag try to scan it, it should flick led's light after a scan.
 
 In any case of errors and problems, contact me on email.
 
