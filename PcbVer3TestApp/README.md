@@ -13,7 +13,7 @@
 	export PATH=$PATH:$GIT_PATH/xtensa-esp32-elf/bin<br />
 	export COMMAND=xtensa-esp32-elf-gcc
 3. nevigate to test project folder and build it:<br />
-	cd ~/Testing/MinPcbTestApp<br />
+	cd ~/Testing/PcbVer3TestApp<br />
         make menuconfig   // it will open configuration menu, just exit it<br />
         make all
 4. connect esp32 to PC and get into Download Mode:<br />

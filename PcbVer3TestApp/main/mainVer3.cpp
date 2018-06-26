@@ -196,15 +196,6 @@ int app_main(void) {
 
 	printf("Welcome to 101DevBoard testing code.\n");
 	while (1) {
-		printf("Please press on GPIO 0 to start test... (Buzzer beeps twice)\n");
-#ifndef NOPRESS
-		waitUntilPress(GPIO_INPUT_IO0);
-#endif
-		// buzzer tests
-		FLICK;
-		FLICK;
-		// end of buzzer tests
-
 		printf("Please press on GPIO 0 to light color\n");
 #ifndef NOPRESS
 		waitUntilPress(GPIO_INPUT_IO0);
