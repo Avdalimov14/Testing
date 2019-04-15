@@ -15,7 +15,7 @@ mainComboVer.o: \
  /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/sys/lock.h \
  /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/sys/cdefs.h \
  /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/sys/string.h \
- /home/albert/Testing/PcbComboOledTestApp/components/OLED/Adafruit_GFX.h \
+ /home/albert/Testing/PcbComboOledTestApp/components/OLED2/SSD_13XX.h \
  /home/albert/Testing/PcbComboOledTestApp/components/esp321/Arduino.h \
  /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/sys/_intsup.h \
@@ -121,13 +121,20 @@ mainComboVer.o: \
  /home/albert/Testing/PcbComboOledTestApp/components/esp321/HardwareSerial.h \
  /home/albert/Testing/PcbComboOledTestApp/components/esp321/Esp.h \
  /home/albert/Testing/PcbComboOledTestApp/components/esp321/pins_arduino.h \
+ /home/albert/Testing/PcbComboOledTestApp/components/esp321/pins_arduino.h \
+ /home/albert/Testing/PcbComboOledTestApp/components/esp321/wiring_private.h \
+ /home/albert/Testing/PcbComboOledTestApp/components/esp321/Arduino.h \
  /home/albert/Testing/PcbComboOledTestApp/components/esp321/Print.h \
- /home/albert/Testing/PcbComboOledTestApp/components/OLED/gfxfont.h \
- /home/albert/Testing/PcbComboOledTestApp/components/OLED/Adafruit_SSD1331.h \
  /home/albert/Testing/PcbComboOledTestApp/components/esp321/SPI.h \
- /home/albert/Testing/PcbComboOledTestApp/components/OLED/Adafruit_SPITFT.h \
- /home/albert/Testing/PcbComboOledTestApp/components/OLED/Adafruit_GFX.h \
- /home/albert/Testing/PcbComboOledTestApp/components/OLED/Adafruit_SPITFT_Macros.h \
+ /home/albert/Testing/PcbComboOledTestApp/components/OLED2/_includes/_cpuCommons.h \
+ /home/albert/Testing/PcbComboOledTestApp/components/OLED2/_includes/_common_16bit_colors.h \
+ /home/albert/Testing/PcbComboOledTestApp/components/OLED2/_settings/SSD_13XX_settings.h \
+ /home/albert/Testing/PcbComboOledTestApp/components/OLED2/_settings/../_display/SSD_1331_96x64.h \
+ /home/albert/Testing/PcbComboOledTestApp/components/OLED2/_settings/../_display/../_includes/SSD_1331_registers.h \
+ /home/albert/Testing/PcbComboOledTestApp/components/OLED2/_includes/sumotoy_fontDescription.h \
+ /home/albert/Testing/PcbComboOledTestApp/components/OLED2/_includes/sumotoy_imageDescription.h \
+ /home/albert/Testing/PcbComboOledTestApp/components/OLED2/_includes/sumotoy_iconDescription.h \
+ /home/albert/Testing/PcbComboOledTestApp/components/OLED2/_fonts/defaultFont.c \
  /home/albert/Testing/PcbComboOledTestApp/components/PN532_SPI/PN532_SPI.h \
  /home/albert/Testing/PcbComboOledTestApp/components/PN532/PN532Interface.h \
  /home/albert/Testing/PcbComboOledTestApp/components/PN532/PN532.h \
@@ -177,7 +184,7 @@ mainComboVer.o: \
 
 /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/sys/string.h:
 
-/home/albert/Testing/PcbComboOledTestApp/components/OLED/Adafruit_GFX.h:
+/home/albert/Testing/PcbComboOledTestApp/components/OLED2/SSD_13XX.h:
 
 /home/albert/Testing/PcbComboOledTestApp/components/esp321/Arduino.h:
 
@@ -389,19 +396,33 @@ mainComboVer.o: \
 
 /home/albert/Testing/PcbComboOledTestApp/components/esp321/pins_arduino.h:
 
+/home/albert/Testing/PcbComboOledTestApp/components/esp321/pins_arduino.h:
+
+/home/albert/Testing/PcbComboOledTestApp/components/esp321/wiring_private.h:
+
+/home/albert/Testing/PcbComboOledTestApp/components/esp321/Arduino.h:
+
 /home/albert/Testing/PcbComboOledTestApp/components/esp321/Print.h:
-
-/home/albert/Testing/PcbComboOledTestApp/components/OLED/gfxfont.h:
-
-/home/albert/Testing/PcbComboOledTestApp/components/OLED/Adafruit_SSD1331.h:
 
 /home/albert/Testing/PcbComboOledTestApp/components/esp321/SPI.h:
 
-/home/albert/Testing/PcbComboOledTestApp/components/OLED/Adafruit_SPITFT.h:
+/home/albert/Testing/PcbComboOledTestApp/components/OLED2/_includes/_cpuCommons.h:
 
-/home/albert/Testing/PcbComboOledTestApp/components/OLED/Adafruit_GFX.h:
+/home/albert/Testing/PcbComboOledTestApp/components/OLED2/_includes/_common_16bit_colors.h:
 
-/home/albert/Testing/PcbComboOledTestApp/components/OLED/Adafruit_SPITFT_Macros.h:
+/home/albert/Testing/PcbComboOledTestApp/components/OLED2/_settings/SSD_13XX_settings.h:
+
+/home/albert/Testing/PcbComboOledTestApp/components/OLED2/_settings/../_display/SSD_1331_96x64.h:
+
+/home/albert/Testing/PcbComboOledTestApp/components/OLED2/_settings/../_display/../_includes/SSD_1331_registers.h:
+
+/home/albert/Testing/PcbComboOledTestApp/components/OLED2/_includes/sumotoy_fontDescription.h:
+
+/home/albert/Testing/PcbComboOledTestApp/components/OLED2/_includes/sumotoy_imageDescription.h:
+
+/home/albert/Testing/PcbComboOledTestApp/components/OLED2/_includes/sumotoy_iconDescription.h:
+
+/home/albert/Testing/PcbComboOledTestApp/components/OLED2/_fonts/defaultFont.c:
 
 /home/albert/Testing/PcbComboOledTestApp/components/PN532_SPI/PN532_SPI.h:
 

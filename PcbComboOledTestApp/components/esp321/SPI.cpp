@@ -282,4 +282,4 @@ void SPIClass::writePattern_(uint8_t * data, uint8_t size, uint8_t repeat)
     writeBytes(&buffer[0], bytes);
 }
 
-SPIClass SPI(VSPI);
+SPIClass SPInfc(VSPI), SPI(VSPI);

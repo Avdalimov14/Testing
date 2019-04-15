@@ -21573,16 +21573,16 @@ END GROUP
                 0x00000000400d02d4        0x8 /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
                                          0x24 (size before relaxing)
  .literal.init_pwm
-                0x00000000400d02dc       0x10 /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
-                                         0x20 (size before relaxing)
+                0x00000000400d02dc        0xc /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
+                                         0x1c (size before relaxing)
  .literal.flickLED
-                0x00000000400d02ec        0x0 /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
+                0x00000000400d02e8        0x0 /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
                                          0x1c (size before relaxing)
  .literal._Z9nfcHandlev
-                0x00000000400d02ec       0x4c /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
+                0x00000000400d02e8       0x4c /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
                                         0x15c (size before relaxing)
  .literal.app_main
-                0x00000000400d0338       0x28 /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
+                0x00000000400d0334       0x2c /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
                                         0x10c (size before relaxing)
  .literal._GLOBAL__sub_I_pn532spi
                 0x00000000400d0360        0x0 /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
@@ -22782,23 +22782,23 @@ END GROUP
                 0x00000000400d2190                init_gpio
  *fill*         0x00000000400d21da        0x2 
  .text.init_pwm
-                0x00000000400d21dc       0x79 /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
-                                         0x84 (size before relaxing)
+                0x00000000400d21dc       0x77 /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
+                                         0x82 (size before relaxing)
                 0x00000000400d21dc                init_pwm
- *fill*         0x00000000400d2255        0x3 
+ *fill*         0x00000000400d2253        0x1 
  .text.flickLED
-                0x00000000400d2258       0x36 /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
+                0x00000000400d2254       0x36 /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
                                          0x4e (size before relaxing)
-                0x00000000400d2258                flickLED
- *fill*         0x00000000400d228e        0x2 
+                0x00000000400d2254                flickLED
+ *fill*         0x00000000400d228a        0x2 
  .text._Z9nfcHandlev
-                0x00000000400d2290      0x38a /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
-                0x00000000400d2290                _Z9nfcHandlev
- *fill*         0x00000000400d261a        0x2 
+                0x00000000400d228c      0x38a /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
+                0x00000000400d228c                _Z9nfcHandlev
+ *fill*         0x00000000400d2616        0x2 
  .text.app_main
-                0x00000000400d261c      0x1d2 /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
-                                        0x26e (size before relaxing)
-                0x00000000400d261c                app_main
+                0x00000000400d2618      0x1d6 /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
+                                        0x276 (size before relaxing)
+                0x00000000400d2618                app_main
  *fill*         0x00000000400d27ee        0x2 
  .text._GLOBAL__sub_I_pn532spi
                 0x00000000400d27f0        0xd /home/albert/Testing/PcbCombo2LedTestApp/build/main/libmain.a(mainComboVer.o)
@@ -24367,6 +24367,7 @@ END GROUP
  .text.heap_caps_match
                 0x00000000400e8090       0x34 /home/albert/Testing/PcbCombo2LedTestApp/build/heap/libheap.a(heap_caps.o)
                 0x00000000400e8090                heap_caps_match
+ *fill*         0x00000000400e80c4        0x0 
  *fill*         0x00000000400e80c4        0x0 
  *fill*         0x00000000400e80c4        0x0 
  *fill*         0x00000000400e80c4        0x0 

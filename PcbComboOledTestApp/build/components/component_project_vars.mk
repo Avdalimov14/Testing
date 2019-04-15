@@ -1,5 +1,5 @@
 # Automatically generated build file. Do not edit.
-COMPONENT_INCLUDES += $(PROJECT_PATH)/components/esp321 $(PROJECT_PATH)/components/PN532_SPI $(PROJECT_PATH)/components/PN532 $(PROJECT_PATH)/components/NDEF $(PROJECT_PATH)/components/OLED
+COMPONENT_INCLUDES += $(PROJECT_PATH)/components/esp321 $(PROJECT_PATH)/components/PN532_SPI $(PROJECT_PATH)/components/PN532 $(PROJECT_PATH)/components/NDEF $(PROJECT_PATH)/components/OLED $(PROJECT_PATH)/components/OLED2
 COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/components -lstdc++ -lcomponents
 COMPONENT_LINKER_DEPS += 
 COMPONENT_SUBMODULES += 

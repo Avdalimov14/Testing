@@ -1,7 +1,8 @@
 #include <string.h>
 //#include <iostream>
-#include "Adafruit_GFX.h"
-#include "Adafruit_SSD1331.h"
+//#include "Adafruit_GFX.h"
+//#include "Adafruit_SSD1331.h"
+#include "SSD_13XX.h"
 #include "SPI.h"
 #include "PN532_SPI.h"
 #include "PN532.h"
@@ -20,7 +21,8 @@ extern "C" {
 }
 
 #define MAC_SIZE 6
-PN532_SPI pn532spi(SPI, 5);
+extern SPIClass SPInfc;
+PN532_SPI pn532spi(SPInfc, 5);
 NfcAdapter nfc = NfcAdapter(pn532spi);
 
 byte smartphoneMAC[MAC_SIZE];
@@ -42,8 +44,9 @@ byte smartphoneMAC[MAC_SIZE];
 #define YELLOW          0xFFE0
 #define WHITE           0xFFFF
 
-Adafruit_SSD1331 display = Adafruit_SSD1331(cs, dc, mosi, sclk, rst);
-
+//Adafruit_SSD1331 display = Adafruit_SSD1331(cs, dc, mosi, sclk, rst);
+//Adafruit_SSD1331 display = Adafruit_SSD1331(cs, dc, rst);
+SSD_13XX tft = SSD_13XX(cs, dc, rst);
 extern "C" {
 	int app_main(void);
 // GPIO Defines
@@ -66,6 +69,9 @@ void flickLED();
 #define FLICK flickLED()
 void positiveDisplayFeedback();
 
+spi_t * nfcSpiBus = NULL;
+spi_t * displaySpiBus = NULL;
+
 // Declare general functions
 void waitUntilPress(gpio_num_t gpioNum);
 }
@@ -73,34 +79,23 @@ void waitUntilPress(gpio_num_t gpioNum);
 
 void positiveDisplayFeedback()
 {
-	display.fillScreen(BLACK);
-	display.setCursor(0, 30);
-	display.setTextColor(RED);
-	display.setTextSize(2);
-	display.println("  NFC");
-	display.println(" SUCCESS");
-	delay(2000);
+	tft.clearScreen();
+	tft.setCursor(10, 5);
+	tft.setTextColor(YELLOW);
+	tft.setTextScale(2);
+	tft.println("NFC SUCESS!!");
+	tft.setTextColor(YELLOW);
+	vTaskDelay(2000 / portTICK_RATE_MS);
+	tft.clearScreen();
 }
 
 void initDisplay()
 {
-	display.begin();
-	display.fillScreen(BLACK);
-	display.setCursor(0, 30);
-    display.setTextColor(RED);
-    display.setTextSize(2);
-    display.print("Initializing");
-    delay(333);
-	display.print(".");
-	delay(333);
-	display.print(".");
-	delay(333);
-    display.print(".");
+	tft.begin();
 }
 
 void nfcHandle() {
 
-    Serial.begin(115200);
 
     int i = 3;
 
@@ -108,9 +103,9 @@ void nfcHandle() {
     	// ReadTag
     	printf("\nScan a NFC tag\n");
     	char desString[50];
-
     	  if (nfc.tagPresent())
     	  {
+      	    positiveDisplayFeedback();
     		  // Extract MAC Address to use
     	    NfcTag tag = nfc.read();
     	    tag.getTagType().toCharArray(desString, 50);
@@ -195,7 +190,6 @@ void nfcHandle() {
 //				  printf ("0x%8X 0x%8X is sent!\n", (int)(sendValue >> 32), (int)sendValue);
 //			  }
 //    	    FLICK;
-    	    positiveDisplayFeedback();
     	  }
 
     	  vTaskDelay(250);
@@ -211,12 +205,17 @@ int app_main(void) {
 	vTaskDelay(100 / portTICK_RATE_MS);
 //	init_pwm();
 	Serial.begin(115200);
+//	positiveDisplayFeedback();
+
+	initDisplay();
 	while(nfc.begin()) {
 		printf("Connect NFC Module to continue!!!\n");
 		vTaskDelay(300 / portTICK_RATE_MS);
 	}
-	initDisplay();
-
+//		pn532spi.print();
+//	display.printStatus();
+//	nfcSpiBus = pn532spi.getNfcSpiBus();
+//	displaySpiBus = display.getDisplaySpiBus();
 	printf("Welcome to 101DevBoard testing code.\n");
 	while (1) {
 		printf("Please press on GPIO 0 to light color\n");

@@ -1,0 +1,7 @@
+# Automatically generated build file. Do not edit.
+COMPONENT_INCLUDES += $(PROJECT_PATH)/components/OLEDDDD/fontconvert $(PROJECT_PATH)/components/OLEDDDD/Fonts
+COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/OLEDDDD -lstdc++ -lOLEDDDD
+COMPONENT_LINKER_DEPS += 
+COMPONENT_SUBMODULES += 
+COMPONENT_LIBRARIES += OLEDDDD
+component-OLEDDDD-build: 
