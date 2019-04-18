@@ -41,6 +41,7 @@ void PN532_SPI::wakeup()
 
 int8_t PN532_SPI::writeCommand(const uint8_t *header, uint8_t hlen, const uint8_t *body, uint8_t blen)
 {
+	_spi->setBitOrder(LSBFIRST);
     command = header[0];
     writeFrame(header, hlen, body, blen);
     
@@ -49,12 +50,12 @@ int8_t PN532_SPI::writeCommand(const uint8_t *header, uint8_t hlen, const uint8_
         delay(1);
         timeout--;
         if (0 == timeout) {
-            DMSG("Time out when waiting for ACK\n");
+//            printf("Time out when waiting for ACK\n"); // was DMSG
             return -2;
         }
     }
     if (readAckFrame()) {
-        DMSG("Invalid ACK\n");
+//    	printf("Invalid ACK\n"); // WAS DMSG
         return PN532_INVALID_ACK;
     }
     return 0;
@@ -62,6 +63,7 @@ int8_t PN532_SPI::writeCommand(const uint8_t *header, uint8_t hlen, const uint8_
 
 int16_t PN532_SPI::readResponse(uint8_t buf[], uint8_t len, uint16_t timeout)
 {
+	_spi->setBitOrder(LSBFIRST);
     uint16_t time = 0;
     while (!isReady()) {
         delay(1);
@@ -141,6 +143,7 @@ int16_t PN532_SPI::readResponse(uint8_t buf[], uint8_t len, uint16_t timeout)
 
 bool PN532_SPI::isReady()
 {
+	_spi->setBitOrder(LSBFIRST);
     digitalWrite(_ss, LOW);
 
     write(STATUS_READ);
@@ -151,6 +154,7 @@ bool PN532_SPI::isReady()
 
 void PN532_SPI::writeFrame(const uint8_t *header, uint8_t hlen, const uint8_t *body, uint8_t blen)
 {
+	_spi->setBitOrder(LSBFIRST);
     digitalWrite(_ss, LOW);
     delay(2);               // wake up PN532
 
@@ -192,6 +196,7 @@ void PN532_SPI::writeFrame(const uint8_t *header, uint8_t hlen, const uint8_t *b
 
 int8_t PN532_SPI::readAckFrame()
 {
+	_spi->setBitOrder(LSBFIRST);
     const uint8_t PN532_ACK[] = {0, 0, 0xFF, 0, 0xFF, 0};
 
     uint8_t ackBuf[sizeof(PN532_ACK)];
@@ -199,10 +204,12 @@ int8_t PN532_SPI::readAckFrame()
     digitalWrite(_ss, LOW);
     delay(1);
     write(DATA_READ);
-
+//    printf("acBuf[%d] = ", sizeof(PN532_ACK));
     for (uint8_t i = 0; i < sizeof(PN532_ACK); i++) {
         ackBuf[i] = read();
+//        printf("%d, ", ackBuf[i]);
     }
+//    printf("\n");
 
     digitalWrite(_ss, HIGH);
 

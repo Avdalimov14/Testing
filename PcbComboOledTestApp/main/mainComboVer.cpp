@@ -84,14 +84,37 @@ void positiveDisplayFeedback()
 	tft.setTextColor(YELLOW);
 	tft.setTextScale(2);
 	tft.println("NFC SUCESS!!");
-	tft.setTextColor(YELLOW);
 	vTaskDelay(2000 / portTICK_RATE_MS);
 	tft.clearScreen();
+	nfc.begin();
+}
+
+void negativeDisplayFeedback()
+{
+	tft.clearScreen();
+	tft.setCursor(10, 5);
+	tft.setTextColor(BLUE);
+	tft.setTextScale(2);
+	tft.println("NFC SEARCH...");
+	vTaskDelay(500 / portTICK_RATE_MS);
+	tft.clearScreen();
+	delay(333);
 }
 
 void initDisplay()
 {
 	tft.begin();
+	tft.clearScreen();
+	tft.setCursor(10, 5);
+	tft.setTextColor(RED);
+	tft.setTextScale(2);
+	tft.print("Init");
+	delay(333);
+	tft.print(".");
+	delay(333);
+	tft.print(".");
+	delay(333);
+	tft.print(".");
 }
 
 void nfcHandle() {
@@ -106,6 +129,7 @@ void nfcHandle() {
     	  if (nfc.tagPresent())
     	  {
       	    positiveDisplayFeedback();
+      	    delay(100);
     		  // Extract MAC Address to use
     	    NfcTag tag = nfc.read();
     	    tag.getTagType().toCharArray(desString, 50);
@@ -193,6 +217,7 @@ void nfcHandle() {
     	  }
 
     	  vTaskDelay(250);
+//    	  negativeDisplayFeedback();
     	  i--;
 
     	}

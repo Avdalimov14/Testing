@@ -20,7 +20,12 @@ SPI.o: \
  /home/albert/Testing/PcbComboOledTestApp/components/esp321/./pins_arduino.h \
  /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/stdint.h \
  /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/sys/_intsup.h \
- /home/albert/Testing/PcbComboOledTestApp/components/esp321/./esp32-hal-spi.h
+ /home/albert/Testing/PcbComboOledTestApp/components/esp321/./esp32-hal-spi.h \
+ /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/stdio.h \
+ /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/sys/types.h \
+ /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/machine/types.h \
+ /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/sys/sched.h \
+ /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/sys/stdio.h
 
 /home/albert/Testing/PcbComboOledTestApp/components/esp321/./SPI.h:
 
@@ -63,4 +68,14 @@ SPI.o: \
 /home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/sys/_intsup.h:
 
 /home/albert/Testing/PcbComboOledTestApp/components/esp321/./esp32-hal-spi.h:
+
+/home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/stdio.h:
+
+/home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/sys/types.h:
+
+/home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/machine/types.h:
+
+/home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/sys/sched.h:
+
+/home/albert/ESP32_101/esp-idf-v3.0/components/newlib/include/sys/stdio.h:
 /home/albert/Testing/PcbComboOledTestApp/components/esp321/./SPI.cpp:

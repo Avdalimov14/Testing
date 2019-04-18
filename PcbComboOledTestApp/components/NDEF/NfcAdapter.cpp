@@ -12,7 +12,7 @@ NfcAdapter::~NfcAdapter(void)
 
 bool NfcAdapter::begin(boolean verbose)
 {
-    shield->begin();
+	shield->begin();
 
     uint32_t versiondata = shield->getFirmwareVersion();
 
@@ -48,6 +48,7 @@ boolean NfcAdapter::tagPresent(unsigned long timeout)
     {
         success = shield->readPassiveTargetID(PN532_MIFARE_ISO14443A, uid, (uint8_t*)&uidLength, timeout);
     }
+    printf("nfctagPresent: success%d", success);
     return success;
 }
 

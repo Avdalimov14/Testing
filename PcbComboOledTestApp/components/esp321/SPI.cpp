@@ -20,6 +20,7 @@
  */
 
 #include "SPI.h"
+#include <stdio.h>
 
 SPIClass::SPIClass(uint8_t spi_bus)
     :_spi_num(spi_bus)
@@ -37,6 +38,7 @@ SPIClass::SPIClass(uint8_t spi_bus)
 void SPIClass::begin(int8_t sck, int8_t miso, int8_t mosi, int8_t ss)
 {
     if(_spi) {
+    	printf("_spi already defined!");
         return;
     }
 
@@ -105,6 +107,8 @@ void SPIClass::setFrequency(uint32_t freq)
 
 void SPIClass::setClockDivider(uint32_t clockDiv)
 {
+
+    printf("ClockChanged %d -> %d", _div, clockDiv);
     _div = clockDiv;
     spiSetClockDiv(_spi, _div);
 }

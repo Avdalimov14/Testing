@@ -26,7 +26,7 @@ PN532::PN532(PN532Interface &interface)
 void PN532::begin()
 {
     HAL(begin)();
-    HAL(wakeup)();
+	HAL(wakeup)();
 }
 
 /**************************************************************************/
@@ -356,11 +356,13 @@ bool PN532::readPassiveTargetID(uint8_t cardbaudrate, uint8_t *uid, uint8_t *uid
     pn532_packetbuffer[2] = cardbaudrate;
 
     if (HAL(writeCommand)(pn532_packetbuffer, 3)) {
+    	printf("readPassiveTargetID: writeCommand F");
         return 0x0;  // command failed
     }
 
     // read data packet
     if (HAL(readResponse)(pn532_packetbuffer, sizeof(pn532_packetbuffer), timeout) < 0) {
+    	printf("readPassiveTargetID: readResponse F");
         return 0x0;
     }
 

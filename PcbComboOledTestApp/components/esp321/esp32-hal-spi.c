@@ -14,6 +14,7 @@
 
 #include "esp32-hal-spi.h"
 #include "esp32-hal.h"
+#include "esp_log.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "freertos/semphr.h"
@@ -58,8 +59,8 @@ static spi_t _spi_bus_array[4] = {
     {(volatile spi_dev_t *)(DR_REG_SPI3_BASE), 3}
 };
 #else
-#define SPI_MUTEX_LOCK()    do {} while (xSemaphoreTake(spi->lock, portMAX_DELAY) != pdPASS)
-#define SPI_MUTEX_UNLOCK()  xSemaphoreGive(spi->lock)
+#define SPI_MUTEX_LOCK()    do {} while (xSemaphoreTake(spi->lock, portMAX_DELAY) != pdPASS);
+#define SPI_MUTEX_UNLOCK()  xSemaphoreGive(spi->lock);
 
 static spi_t _spi_bus_array[4] = {
     {(volatile spi_dev_t *)(DR_REG_SPI0_BASE), NULL, 0},
@@ -400,7 +401,9 @@ spi_t * spiStartBus(uint8_t spi_num, uint32_t clockDiv, uint8_t dataMode, uint8_
 #if !CONFIG_DISABLE_HAL_LOCKS
     if(spi->lock == NULL){
         spi->lock = xSemaphoreCreateMutex();
+        ESP_LOGI("DEBUGGGG Semaphore:", "Mutex created Success");
         if(spi->lock == NULL) {
+        	ESP_LOGE("DEBUGGGG Semaphore:", "Mutex created Failed");
             return NULL;
         }
     }
